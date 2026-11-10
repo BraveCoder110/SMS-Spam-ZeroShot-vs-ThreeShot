@@ -1,0 +1,2001 @@
+sms_id,true_label,method,prediction,raw_output,input_tokens,output_tokens,time_seconds
+SMS0001,spam,Zero-shot,Spam,Spam,183,3,0.3852
+SMS0001,spam,3-shot,Spam,Spam,279,3,0.5401
+SMS0002,ham,Zero-shot,Not Spam,Not Spam,110,3,0.5094
+SMS0002,ham,3-shot,Not Spam,Not Spam,206,3,0.4443
+SMS0003,ham,Zero-shot,Not Spam,Not Spam,99,3,0.4302
+SMS0003,ham,3-shot,Not Spam,Not Spam,195,3,0.501
+SMS0004,ham,Zero-shot,Not Spam,Not Spam,99,3,0.2689
+SMS0004,ham,3-shot,Not Spam,Not Spam,195,3,0.3227
+SMS0005,ham,Zero-shot,Not Spam,Not Spam,100,3,0.3064
+SMS0005,ham,3-shot,Not Spam,Not Spam,196,3,0.3315
+SMS0006,ham,Zero-shot,Spam,Spam,104,3,0.2804
+SMS0006,ham,3-shot,Not Spam,Not Spam,200,3,0.331
+SMS0007,spam,Zero-shot,Spam,Spam,167,3,0.3232
+SMS0007,spam,3-shot,Spam,Spam,263,3,0.3855
+SMS0008,spam,Zero-shot,Spam,Spam,135,3,0.3055
+SMS0008,spam,3-shot,Spam,Spam,231,3,0.3387
+SMS0009,spam,Zero-shot,Spam,Spam,137,3,0.3075
+SMS0009,spam,3-shot,Spam,Spam,233,3,0.343
+SMS0010,spam,Zero-shot,Spam,Spam,129,3,0.2992
+SMS0010,spam,3-shot,Spam,Spam,225,3,0.3411
+SMS0011,spam,Zero-shot,Spam,Spam,145,3,0.3871
+SMS0011,spam,3-shot,Spam,Spam,241,3,0.3637
+SMS0012,spam,Zero-shot,Spam,Spam,161,3,0.3228
+SMS0012,spam,3-shot,Spam,Spam,257,3,0.4072
+SMS0013,spam,Zero-shot,Spam,Spam,149,3,0.318
+SMS0013,spam,3-shot,Spam,Spam,245,3,0.364
+SMS0014,spam,Zero-shot,Spam,Spam,141,3,0.3162
+SMS0014,spam,3-shot,Spam,Spam,237,3,0.3495
+SMS0015,ham,Zero-shot,Not Spam,Not Spam,115,3,0.3019
+SMS0015,ham,3-shot,Not Spam,Not Spam,211,3,0.3545
+SMS0016,ham,Zero-shot,Not Spam,Not Spam,118,3,0.3187
+SMS0016,ham,3-shot,Not Spam,Not Spam,214,3,0.3473
+SMS0017,spam,Zero-shot,Spam,Spam,128,3,0.3065
+SMS0017,spam,3-shot,Spam,Spam,224,3,0.3504
+SMS0018,ham,Zero-shot,Not Spam,Not Spam,100,3,0.3037
+SMS0018,ham,3-shot,Not Spam,Not Spam,196,3,0.3566
+SMS0019,spam,Zero-shot,Spam,Spam,151,3,0.324
+SMS0019,spam,3-shot,Spam,Spam,247,3,0.3733
+SMS0020,spam,Zero-shot,Spam,Spam,135,3,0.3467
+SMS0020,spam,3-shot,Spam,Spam,231,3,0.3667
+SMS0021,spam,Zero-shot,Spam,Spam,158,3,0.3261
+SMS0021,spam,3-shot,Spam,Spam,254,3,0.374
+SMS0022,spam,Zero-shot,Spam,Spam,138,3,0.3176
+SMS0022,spam,3-shot,Spam,Spam,234,3,0.3367
+SMS0023,ham,Zero-shot,Spam,Spam,97,3,0.305
+SMS0023,ham,3-shot,Not Spam,Not Spam,193,3,0.3355
+SMS0024,ham,Zero-shot,Not Spam,Not Spam,114,3,0.3031
+SMS0024,ham,3-shot,Not Spam,Not Spam,210,3,0.3599
+SMS0025,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2853
+SMS0025,ham,3-shot,Not Spam,Not Spam,194,3,0.3382
+SMS0026,spam,Zero-shot,Spam,Spam,149,3,0.3187
+SMS0026,spam,3-shot,Spam,Spam,245,3,0.359
+SMS0027,spam,Zero-shot,Spam,Spam,139,3,0.3209
+SMS0027,spam,3-shot,Spam,Spam,235,3,0.3504
+SMS0028,ham,Zero-shot,Not Spam,Not Spam,99,3,0.3007
+SMS0028,ham,3-shot,Not Spam,Not Spam,195,3,0.345
+SMS0029,spam,Zero-shot,Spam,Spam,126,3,0.3086
+SMS0029,spam,3-shot,Spam,Spam,222,3,0.3475
+SMS0030,ham,Zero-shot,Spam,Spam,145,3,0.3172
+SMS0030,ham,3-shot,Spam,Spam,241,3,0.348
+SMS0031,spam,Zero-shot,Spam,Spam,151,3,0.3483
+SMS0031,spam,3-shot,Spam,Spam,247,3,0.3563
+SMS0032,ham,Zero-shot,Spam,Spam,114,3,0.2818
+SMS0032,ham,3-shot,INVALID,Label: Not Spam,210,5,0.5149
+SMS0033,spam,Zero-shot,Spam,Spam,142,3,0.3114
+SMS0033,spam,3-shot,Spam,Spam,238,3,0.3552
+SMS0034,spam,Zero-shot,Spam,Spam,146,3,0.3123
+SMS0034,spam,3-shot,Spam,Spam,242,3,0.3484
+SMS0035,spam,Zero-shot,Spam,Spam,166,3,0.333
+SMS0035,spam,3-shot,Spam,Spam,262,3,0.4009
+SMS0036,spam,Zero-shot,Spam,Spam,144,3,0.3172
+SMS0036,spam,3-shot,Spam,Spam,240,3,0.3503
+SMS0037,spam,Zero-shot,Spam,Spam,141,3,0.3221
+SMS0037,spam,3-shot,Spam,Spam,237,3,0.3738
+SMS0038,spam,Zero-shot,Spam,Spam,143,3,0.3247
+SMS0038,spam,3-shot,Spam,Spam,239,3,0.3781
+SMS0039,spam,Zero-shot,Spam,Spam,136,3,0.3252
+SMS0039,spam,3-shot,Spam,Spam,232,3,0.3552
+SMS0040,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2959
+SMS0040,ham,3-shot,Not Spam,Not Spam,194,3,0.339
+SMS0041,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2882
+SMS0041,ham,3-shot,Not Spam,Not Spam,196,3,0.3533
+SMS0042,ham,Zero-shot,Not Spam,Not Spam,112,3,0.2875
+SMS0042,ham,3-shot,Not Spam,Not Spam,208,3,0.3531
+SMS0043,ham,Zero-shot,Not Spam,Not Spam,98,3,0.3105
+SMS0043,ham,3-shot,Not Spam,Not Spam,194,3,0.3499
+SMS0044,ham,Zero-shot,Spam,Spam,130,3,0.314
+SMS0044,ham,3-shot,Spam,Spam,226,3,0.3663
+SMS0045,ham,Zero-shot,Not Spam,Not Spam,96,3,0.2832
+SMS0045,ham,3-shot,Not Spam,Not Spam,192,3,0.3487
+SMS0046,spam,Zero-shot,Spam,Spam,132,3,0.3711
+SMS0046,spam,3-shot,Spam,Spam,228,3,0.347
+SMS0047,ham,Zero-shot,Spam,Spam,98,3,0.2773
+SMS0047,ham,3-shot,Not Spam,Not Spam,194,3,0.3468
+SMS0048,spam,Zero-shot,Spam,Spam,142,3,0.3194
+SMS0048,spam,3-shot,Spam,Spam,238,3,0.3474
+SMS0049,spam,Zero-shot,Spam,Spam,142,3,0.3251
+SMS0049,spam,3-shot,Spam,Spam,238,3,0.3635
+SMS0050,ham,Zero-shot,Not Spam,Not Spam,99,3,0.298
+SMS0050,ham,3-shot,Not Spam,Not Spam,195,3,0.3575
+SMS0051,ham,Zero-shot,Not Spam,Not Spam,110,3,0.3078
+SMS0051,ham,3-shot,Not Spam,Not Spam,206,3,0.3921
+SMS0052,ham,Zero-shot,Spam,Spam,138,3,0.3263
+SMS0052,ham,3-shot,Spam,Spam,234,3,0.3539
+SMS0053,spam,Zero-shot,Spam,Spam,148,3,0.3369
+SMS0053,spam,3-shot,Spam,Spam,244,3,0.3632
+SMS0054,ham,Zero-shot,Not Spam,Not Spam,109,3,0.3126
+SMS0054,ham,3-shot,Not Spam,Not Spam,205,3,0.3648
+SMS0055,spam,Zero-shot,Spam,Spam,135,3,0.3393
+SMS0055,spam,3-shot,Spam,Spam,231,3,0.372
+SMS0056,spam,Zero-shot,Spam,Spam,155,3,0.3194
+SMS0056,spam,3-shot,Spam,Spam,251,3,0.3466
+SMS0057,spam,Zero-shot,Spam,Spam,144,3,0.3262
+SMS0057,spam,3-shot,Spam,Spam,240,3,0.3488
+SMS0058,spam,Zero-shot,Spam,Spam,103,3,0.2916
+SMS0058,spam,3-shot,Spam,Spam,199,3,0.3453
+SMS0059,spam,Zero-shot,Spam,Spam,138,3,0.3146
+SMS0059,spam,3-shot,Spam,Spam,234,3,0.3556
+SMS0060,ham,Zero-shot,Not Spam,Not Spam,106,3,0.2998
+SMS0060,ham,3-shot,Not Spam,Not Spam,202,3,0.392
+SMS0061,ham,Zero-shot,Not Spam,Not Spam,103,3,0.2887
+SMS0061,ham,3-shot,Not Spam,Not Spam,199,3,0.3587
+SMS0062,ham,Zero-shot,Not Spam,Not Spam,111,3,0.2911
+SMS0062,ham,3-shot,Not Spam,Not Spam,207,3,0.3447
+SMS0063,spam,Zero-shot,Spam,Spam,142,3,0.3363
+SMS0063,spam,3-shot,Spam,Spam,238,3,0.3544
+SMS0064,spam,Zero-shot,Spam,Spam,134,3,0.317
+SMS0064,spam,3-shot,Spam,Spam,230,3,0.3928
+SMS0065,spam,Zero-shot,Spam,Spam,130,3,0.3313
+SMS0065,spam,3-shot,Spam,Spam,226,3,0.3731
+SMS0066,ham,Zero-shot,Not Spam,Not Spam,99,3,0.3089
+SMS0066,ham,3-shot,Not Spam,Not Spam,195,3,0.3456
+SMS0067,spam,Zero-shot,Spam,Spam,110,3,0.2986
+SMS0067,spam,3-shot,Spam,Spam,206,3,0.3558
+SMS0068,spam,Zero-shot,Spam,Spam,152,3,0.3193
+SMS0068,spam,3-shot,Spam,Spam,248,3,0.3547
+SMS0069,ham,Zero-shot,Not Spam,Not Spam,95,3,0.3128
+SMS0069,ham,3-shot,Not Spam,Not Spam,191,3,0.3333
+SMS0070,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2965
+SMS0070,ham,3-shot,Not Spam,Not Spam,194,3,0.3424
+SMS0071,spam,Zero-shot,Spam,Spam,117,3,0.2963
+SMS0071,spam,3-shot,INVALID,Label: Spam,213,4,0.4353
+SMS0072,spam,Zero-shot,Spam,Spam,145,3,0.3328
+SMS0072,spam,3-shot,Spam,Spam,241,3,0.3581
+SMS0073,ham,Zero-shot,Not Spam,Not Spam,111,3,0.2894
+SMS0073,ham,3-shot,Not Spam,Not Spam,207,3,0.3493
+SMS0074,ham,Zero-shot,Not Spam,Not Spam,110,3,0.2997
+SMS0074,ham,3-shot,Not Spam,Not Spam,206,3,0.3474
+SMS0075,spam,Zero-shot,Spam,Spam,106,3,0.2922
+SMS0075,spam,3-shot,Spam,Spam,202,3,0.3986
+SMS0076,spam,Zero-shot,Spam,Spam,149,3,0.3228
+SMS0076,spam,3-shot,Spam,Spam,245,3,0.3534
+SMS0077,spam,Zero-shot,Spam,Spam,122,3,0.2981
+SMS0077,spam,3-shot,Spam,Spam,218,3,0.3445
+SMS0078,spam,Zero-shot,Spam,Spam,141,3,0.3164
+SMS0078,spam,3-shot,Spam,Spam,237,3,0.3512
+SMS0079,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2792
+SMS0079,ham,3-shot,Not Spam,Not Spam,194,3,0.3399
+SMS0080,ham,Zero-shot,Not Spam,Not Spam,110,3,0.2977
+SMS0080,ham,3-shot,Not Spam,Not Spam,206,3,0.3448
+SMS0081,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2899
+SMS0081,ham,3-shot,Not Spam,Not Spam,197,3,0.355
+SMS0082,ham,Zero-shot,Not Spam,Not Spam,99,3,0.2802
+SMS0082,ham,3-shot,Not Spam,Not Spam,195,3,0.3361
+SMS0083,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2817
+SMS0083,ham,3-shot,Not Spam,Not Spam,194,3,0.3409
+SMS0084,spam,Zero-shot,Spam,Spam,167,3,0.3495
+SMS0084,spam,3-shot,Spam,Spam,263,3,0.4017
+SMS0085,spam,Zero-shot,Spam,Spam,150,3,0.3429
+SMS0085,spam,3-shot,Spam,Spam,246,3,0.3569
+SMS0086,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2808
+SMS0086,ham,3-shot,Not Spam,Not Spam,194,3,0.3398
+SMS0087,spam,Zero-shot,Spam,Spam,147,3,0.346
+SMS0087,spam,3-shot,Spam,Spam,243,3,0.3636
+SMS0088,spam,Zero-shot,Spam,Spam,135,3,0.3239
+SMS0088,spam,3-shot,Spam,Spam,231,3,0.3556
+SMS0089,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2844
+SMS0089,ham,3-shot,Not Spam,Not Spam,194,3,0.3449
+SMS0090,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2902
+SMS0090,ham,3-shot,Not Spam,Not Spam,196,3,0.3422
+SMS0091,spam,Zero-shot,Spam,Spam,167,3,0.3661
+SMS0091,spam,3-shot,Spam,Spam,263,3,0.3994
+SMS0092,ham,Zero-shot,Not Spam,Not Spam,103,3,0.2872
+SMS0092,ham,3-shot,Not Spam,Not Spam,199,3,0.3558
+SMS0093,spam,Zero-shot,Spam,Spam,118,3,0.2878
+SMS0093,spam,3-shot,Spam,Spam,214,3,0.3491
+SMS0094,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2991
+SMS0094,ham,3-shot,Not Spam,Not Spam,196,3,0.3447
+SMS0095,ham,Zero-shot,Spam,Spam,133,3,0.3328
+SMS0095,ham,3-shot,Not Spam,Not Spam,229,3,0.3754
+SMS0096,spam,Zero-shot,Spam,Spam,128,3,0.288
+SMS0096,spam,3-shot,Spam,Spam,224,3,0.388
+SMS0097,ham,Zero-shot,Not Spam,Not Spam,96,3,0.3041
+SMS0097,ham,3-shot,Not Spam,Not Spam,192,3,0.3325
+SMS0098,spam,Zero-shot,Spam,Spam,156,3,0.3282
+SMS0098,spam,3-shot,Spam,Spam,252,3,0.3757
+SMS0099,ham,Zero-shot,Spam,Spam,135,3,0.3187
+SMS0099,ham,3-shot,Not Spam,Not Spam,231,3,0.3627
+SMS0100,ham,Zero-shot,Not Spam,Not Spam,118,3,0.2851
+SMS0100,ham,3-shot,Not Spam,Not Spam,214,3,0.3505
+SMS0101,spam,Zero-shot,Spam,Spam,139,3,0.3252
+SMS0101,spam,3-shot,Spam,Spam,235,3,0.373
+SMS0102,spam,Zero-shot,Spam,Spam,152,3,0.3265
+SMS0102,spam,3-shot,Spam,Spam,248,3,0.3673
+SMS0103,spam,Zero-shot,Spam,Spam,133,3,0.3146
+SMS0103,spam,3-shot,Spam,Spam,229,3,0.3546
+SMS0104,spam,Zero-shot,Spam,Spam,156,3,0.3272
+SMS0104,spam,3-shot,Spam,Spam,252,3,0.3736
+SMS0105,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2891
+SMS0105,ham,3-shot,Not Spam,Not Spam,194,3,0.3435
+SMS0106,ham,Zero-shot,Spam,Spam,113,3,0.3166
+SMS0106,ham,3-shot,Not Spam,Not Spam,209,3,0.3471
+SMS0107,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2968
+SMS0107,ham,3-shot,Not Spam,Not Spam,200,3,0.3436
+SMS0108,ham,Zero-shot,Spam,Spam,119,3,0.2912
+SMS0108,ham,3-shot,Spam,Spam,215,3,0.3633
+SMS0109,ham,Zero-shot,Not Spam,Not Spam,98,3,0.3047
+SMS0109,ham,3-shot,Not Spam,Not Spam,194,3,0.3692
+SMS0110,ham,Zero-shot,Spam,Spam,141,3,0.3231
+SMS0110,ham,3-shot,Spam,Spam,237,3,0.3602
+SMS0111,ham,Zero-shot,Not Spam,Not Spam,131,3,0.3268
+SMS0111,ham,3-shot,Not Spam,Not Spam,227,3,0.3574
+SMS0112,ham,Zero-shot,Not Spam,Not Spam,111,3,0.2845
+SMS0112,ham,3-shot,Not Spam,Not Spam,207,3,0.3663
+SMS0113,ham,Zero-shot,Not Spam,Not Spam,108,3,0.2873
+SMS0113,ham,3-shot,Not Spam,Not Spam,204,3,0.3499
+SMS0114,spam,Zero-shot,Spam,Spam,135,3,0.3307
+SMS0114,spam,3-shot,Spam,Spam,231,3,0.3601
+SMS0115,spam,Zero-shot,Spam,Spam,126,3,0.2873
+SMS0115,spam,3-shot,Spam,Spam,222,3,0.3663
+SMS0116,spam,Zero-shot,Spam,Spam,138,3,0.3215
+SMS0116,spam,3-shot,Spam,Spam,234,3,0.3658
+SMS0117,ham,Zero-shot,Not Spam,Not Spam,139,3,0.3309
+SMS0117,ham,3-shot,Not Spam,Not Spam,235,3,0.359
+SMS0118,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2834
+SMS0118,ham,3-shot,Not Spam,Not Spam,194,3,0.3459
+SMS0119,ham,Zero-shot,Not Spam,Not Spam,105,3,0.2934
+SMS0119,ham,3-shot,Not Spam,Not Spam,201,3,0.349
+SMS0120,ham,Zero-shot,Not Spam,Not Spam,113,3,0.2871
+SMS0120,ham,3-shot,Not Spam,Not Spam,209,3,0.3565
+SMS0121,ham,Zero-shot,Spam,Spam,146,3,0.3845
+SMS0121,ham,3-shot,Not Spam,Not Spam,242,3,0.3611
+SMS0122,spam,Zero-shot,Spam,Spam,137,3,0.3214
+SMS0122,spam,3-shot,Spam,Spam,233,3,0.3661
+SMS0123,ham,Zero-shot,Not Spam,Not Spam,131,3,0.3129
+SMS0123,ham,3-shot,Not Spam,Not Spam,227,3,0.3619
+SMS0124,ham,Zero-shot,Spam,Spam,100,3,0.3016
+SMS0124,ham,3-shot,Spam,Spam,196,3,0.3641
+SMS0125,ham,Zero-shot,Spam,Spam,109,3,0.295
+SMS0125,ham,3-shot,Spam,Spam,205,3,0.3509
+SMS0126,ham,Zero-shot,Not Spam,Not Spam,138,3,0.3199
+SMS0126,ham,3-shot,Not Spam,Not Spam,234,3,0.3567
+SMS0127,ham,Zero-shot,Not Spam,Not Spam,106,3,0.2896
+SMS0127,ham,3-shot,Not Spam,Not Spam,202,3,0.3481
+SMS0128,ham,Zero-shot,Not Spam,Not Spam,103,3,0.2975
+SMS0128,ham,3-shot,Not Spam,Not Spam,199,3,0.351
+SMS0129,ham,Zero-shot,Not Spam,Not Spam,99,3,0.2824
+SMS0129,ham,3-shot,Not Spam,Not Spam,195,3,0.3646
+SMS0130,spam,Zero-shot,Spam,Spam,116,3,0.285
+SMS0130,spam,3-shot,Spam,Spam,212,3,0.3499
+SMS0131,spam,Zero-shot,Spam,Spam,146,3,0.3379
+SMS0131,spam,3-shot,Spam,Spam,242,3,0.3696
+SMS0132,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2786
+SMS0132,ham,3-shot,Not Spam,Not Spam,197,3,0.3616
+SMS0133,ham,Zero-shot,Not Spam,Not Spam,96,3,0.2869
+SMS0133,ham,3-shot,Not Spam,Not Spam,192,3,0.3433
+SMS0134,spam,Zero-shot,Spam,Spam,137,3,0.3279
+SMS0134,spam,3-shot,Spam,Spam,233,3,0.368
+SMS0135,spam,Zero-shot,Spam,Spam,142,3,0.3243
+SMS0135,spam,3-shot,Spam,Spam,238,3,0.3696
+SMS0136,ham,Zero-shot,Not Spam,Not Spam,109,3,0.3521
+SMS0136,ham,3-shot,Not Spam,Not Spam,205,3,0.3438
+SMS0137,ham,Zero-shot,Not Spam,Not Spam,113,3,0.2862
+SMS0137,ham,3-shot,Not Spam,Not Spam,209,3,0.3607
+SMS0138,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2816
+SMS0138,ham,3-shot,Not Spam,Not Spam,196,3,0.3459
+SMS0139,spam,Zero-shot,Spam,Spam,161,3,0.3585
+SMS0139,spam,3-shot,Spam,Spam,257,3,0.4068
+SMS0140,ham,Zero-shot,Not Spam,Not Spam,139,3,0.3344
+SMS0140,ham,3-shot,Not Spam,Not Spam,235,3,0.3678
+SMS0141,spam,Zero-shot,Spam,Spam,163,3,0.3344
+SMS0141,spam,3-shot,Spam,Spam,259,3,0.4309
+SMS0142,spam,Zero-shot,Spam,Spam,151,3,0.3486
+SMS0142,spam,3-shot,Spam,Spam,247,3,0.376
+SMS0143,ham,Zero-shot,Spam,Spam,120,3,0.302
+SMS0143,ham,3-shot,Not Spam,Not Spam,216,3,0.3654
+SMS0144,spam,Zero-shot,Spam,Spam,133,3,0.3237
+SMS0144,spam,3-shot,Spam,Spam,229,3,0.3853
+SMS0145,ham,Zero-shot,Not Spam,Not Spam,117,3,0.2883
+SMS0145,ham,3-shot,Not Spam,Not Spam,213,3,0.3564
+SMS0146,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2996
+SMS0146,ham,3-shot,Not Spam,Not Spam,194,3,0.3488
+SMS0147,ham,Zero-shot,Not Spam,Not Spam,130,3,0.3286
+SMS0147,ham,3-shot,Not Spam,Not Spam,226,3,0.3762
+SMS0148,spam,Zero-shot,Spam,Spam,120,3,0.288
+SMS0148,spam,3-shot,Spam,Spam,216,3,0.3616
+SMS0149,spam,Zero-shot,Spam,Spam,109,3,0.2946
+SMS0149,spam,3-shot,Spam,Spam,205,3,0.3515
+SMS0150,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2868
+SMS0150,ham,3-shot,Not Spam,Not Spam,194,3,0.3534
+SMS0151,spam,Zero-shot,Not Spam,Not Spam,136,3,0.345
+SMS0151,spam,3-shot,Not Spam,Not Spam,232,3,0.3631
+SMS0152,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2883
+SMS0152,ham,3-shot,Not Spam,Not Spam,196,3,0.3517
+SMS0153,ham,Zero-shot,Not Spam,Not Spam,129,3,0.3216
+SMS0153,ham,3-shot,Not Spam,Not Spam,225,3,0.3485
+SMS0154,spam,Zero-shot,Spam,Spam,156,3,0.3536
+SMS0154,spam,3-shot,Spam,Spam,252,3,0.3851
+SMS0155,ham,Zero-shot,Not Spam,Not Spam,100,3,0.3053
+SMS0155,ham,3-shot,Not Spam,Not Spam,196,3,0.3591
+SMS0156,ham,Zero-shot,Not Spam,Not Spam,105,3,0.2867
+SMS0156,ham,3-shot,Not Spam,Not Spam,201,3,0.3561
+SMS0157,spam,Zero-shot,Spam,Spam,124,3,0.3015
+SMS0157,spam,3-shot,Spam,Spam,220,3,0.3593
+SMS0158,ham,Zero-shot,Not Spam,Not Spam,97,3,0.2921
+SMS0158,ham,3-shot,Not Spam,Not Spam,193,3,0.3626
+SMS0159,spam,Zero-shot,Spam,Spam,144,3,0.3241
+SMS0159,spam,3-shot,Spam,Spam,240,3,0.3716
+SMS0160,spam,Zero-shot,Spam,Spam,157,3,0.3442
+SMS0160,spam,3-shot,Spam,Spam,253,3,0.3712
+SMS0161,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2912
+SMS0161,ham,3-shot,Not Spam,Not Spam,196,3,0.3622
+SMS0162,spam,Zero-shot,Spam,Spam,143,3,0.3277
+SMS0162,spam,3-shot,Spam,Spam,239,3,0.3725
+SMS0163,ham,Zero-shot,Not Spam,Not Spam,104,3,0.3004
+SMS0163,ham,3-shot,Not Spam,Not Spam,200,3,0.349
+SMS0164,spam,Zero-shot,Spam,Spam,146,3,0.3263
+SMS0164,spam,3-shot,Spam,Spam,242,3,0.382
+SMS0165,spam,Zero-shot,Spam,Spam,165,3,0.3308
+SMS0165,spam,3-shot,Spam,Spam,261,3,0.4657
+SMS0166,ham,Zero-shot,Not Spam,Not Spam,102,3,0.2932
+SMS0166,ham,3-shot,Not Spam,Not Spam,198,3,0.3614
+SMS0167,ham,Zero-shot,Spam,Spam,109,3,0.2846
+SMS0167,ham,3-shot,Not Spam,Not Spam,205,3,0.3696
+SMS0168,spam,Zero-shot,Spam,Spam,144,3,0.3382
+SMS0168,spam,3-shot,Spam,Spam,240,3,0.3719
+SMS0169,ham,Zero-shot,Not Spam,Not Spam,115,3,0.3078
+SMS0169,ham,3-shot,Not Spam,Not Spam,211,3,0.3673
+SMS0170,spam,Zero-shot,Spam,Spam,146,3,0.3271
+SMS0170,spam,3-shot,Spam,Spam,242,3,0.3698
+SMS0171,spam,Zero-shot,Spam,Spam,122,3,0.3028
+SMS0171,spam,3-shot,Spam,Spam,218,3,0.3645
+SMS0172,ham,Zero-shot,Not Spam,Not Spam,154,3,0.3639
+SMS0172,ham,3-shot,Not Spam,Not Spam,250,3,0.3759
+SMS0173,ham,Zero-shot,Not Spam,Not Spam,97,3,0.2846
+SMS0173,ham,3-shot,Not Spam,Not Spam,193,3,0.3574
+SMS0174,spam,Zero-shot,Spam,Spam,115,3,0.2984
+SMS0174,spam,3-shot,Spam,Spam,211,3,0.3553
+SMS0175,ham,Zero-shot,Not Spam,Not Spam,122,3,0.3025
+SMS0175,ham,3-shot,Not Spam,Not Spam,218,3,0.3618
+SMS0176,spam,Zero-shot,Spam,Spam,148,3,0.3435
+SMS0176,spam,3-shot,Spam,Spam,244,3,0.3847
+SMS0177,ham,Zero-shot,Spam,Spam,104,3,0.287
+SMS0177,ham,3-shot,Spam,Spam,200,3,0.3587
+SMS0178,ham,Zero-shot,Not Spam,Not Spam,106,3,0.3011
+SMS0178,ham,3-shot,Not Spam,Not Spam,202,3,0.3566
+SMS0179,spam,Zero-shot,Spam,Spam,114,3,0.2888
+SMS0179,spam,3-shot,INVALID,Label: Not Spam,210,5,0.5427
+SMS0180,ham,Zero-shot,Not Spam,Not Spam,117,3,0.2885
+SMS0180,ham,3-shot,Not Spam,Not Spam,213,3,0.3599
+SMS0181,spam,Zero-shot,Spam,Spam,154,3,0.3486
+SMS0181,spam,3-shot,Spam,Spam,250,3,0.3752
+SMS0182,ham,Zero-shot,Not Spam,Not Spam,122,3,0.29
+SMS0182,ham,3-shot,Not Spam,Not Spam,218,3,0.3753
+SMS0183,spam,Zero-shot,Spam,Spam,160,3,0.338
+SMS0183,spam,3-shot,Spam,Spam,256,3,0.3733
+SMS0184,ham,Zero-shot,Spam,Spam,102,3,0.294
+SMS0184,ham,3-shot,Spam,Spam,198,3,0.3555
+SMS0185,ham,Zero-shot,Spam,Spam,168,3,0.3336
+SMS0185,ham,3-shot,Spam,Spam,264,3,0.4248
+SMS0186,ham,Zero-shot,Not Spam,Not Spam,113,3,0.338
+SMS0186,ham,3-shot,Not Spam,Not Spam,209,3,0.3784
+SMS0187,ham,Zero-shot,Spam,Spam,122,3,0.3111
+SMS0187,ham,3-shot,Spam,Spam,218,3,0.3893
+SMS0188,spam,Zero-shot,Spam,Spam,134,3,0.3346
+SMS0188,spam,3-shot,Spam,Spam,230,3,0.3805
+SMS0189,ham,Zero-shot,Not Spam,Not Spam,94,3,0.2821
+SMS0189,ham,3-shot,Not Spam,Not Spam,190,3,0.3799
+SMS0190,spam,Zero-shot,Spam,Spam,135,3,0.3342
+SMS0190,spam,3-shot,Spam,Spam,231,3,0.3829
+SMS0191,spam,Zero-shot,Spam,Spam,157,3,0.367
+SMS0191,spam,3-shot,Spam,Spam,253,3,0.3816
+SMS0192,ham,Zero-shot,Not Spam,Not Spam,113,3,0.2886
+SMS0192,ham,3-shot,Not Spam,Not Spam,209,3,0.3785
+SMS0193,spam,Zero-shot,Spam,Spam,111,3,0.286
+SMS0193,spam,3-shot,Spam,Spam,207,3,0.3547
+SMS0194,ham,Zero-shot,Spam,Spam,104,3,0.2984
+SMS0194,ham,3-shot,Not Spam,Not Spam,200,3,0.3645
+SMS0195,spam,Zero-shot,Spam,Spam,134,3,0.341
+SMS0195,spam,3-shot,Spam,Spam,230,3,0.3803
+SMS0196,ham,Zero-shot,Not Spam,Not Spam,105,3,0.292
+SMS0196,ham,3-shot,Not Spam,Not Spam,201,3,0.3554
+SMS0197,spam,Zero-shot,Spam,Spam,128,3,0.3041
+SMS0197,spam,3-shot,Spam,Spam,224,3,0.3664
+SMS0198,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2881
+SMS0198,ham,3-shot,Not Spam,Not Spam,194,3,0.358
+SMS0199,spam,Zero-shot,Spam,Spam,134,3,0.3327
+SMS0199,spam,3-shot,Spam,Spam,230,3,0.3762
+SMS0200,ham,Zero-shot,Spam,Spam,173,3,0.3424
+SMS0200,ham,3-shot,Spam,Spam,269,3,0.3972
+SMS0201,ham,Zero-shot,Not Spam,Not Spam,93,3,0.2859
+SMS0201,ham,3-shot,Not Spam,Not Spam,189,3,0.3486
+SMS0202,spam,Zero-shot,Spam,Spam,155,3,0.3402
+SMS0202,spam,3-shot,Spam,Spam,251,3,0.3768
+SMS0203,ham,Zero-shot,Not Spam,Not Spam,107,3,0.2846
+SMS0203,ham,3-shot,Not Spam,Not Spam,203,3,0.3595
+SMS0204,spam,Zero-shot,Spam,Spam,154,3,0.3377
+SMS0204,spam,3-shot,Spam,Spam,250,3,0.3948
+SMS0205,ham,Zero-shot,Not Spam,Not Spam,106,3,0.3073
+SMS0205,ham,3-shot,Not Spam,Not Spam,202,3,0.3892
+SMS0206,ham,Zero-shot,Not Spam,Not Spam,115,3,0.3041
+SMS0206,ham,3-shot,Not Spam,Not Spam,211,3,0.3588
+SMS0207,spam,Zero-shot,Spam,Spam,114,3,0.293
+SMS0207,spam,3-shot,Spam,Spam,210,3,0.358
+SMS0208,ham,Zero-shot,Not Spam,Not Spam,106,3,0.2868
+SMS0208,ham,3-shot,Not Spam,Not Spam,202,3,0.3647
+SMS0209,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2877
+SMS0209,ham,3-shot,Not Spam,Not Spam,200,3,0.409
+SMS0210,ham,Zero-shot,Spam,Spam,105,3,0.2965
+SMS0210,ham,3-shot,Spam,Spam,201,3,0.3559
+SMS0211,spam,Zero-shot,Spam,Spam,143,3,0.3448
+SMS0211,spam,3-shot,Spam,Spam,239,3,0.4023
+SMS0212,ham,Zero-shot,Not Spam,Not Spam,102,3,0.2877
+SMS0212,ham,3-shot,Not Spam,Not Spam,198,3,0.351
+SMS0213,spam,Zero-shot,Spam,Spam,128,3,0.3057
+SMS0213,spam,3-shot,Spam,Spam,224,3,0.3641
+SMS0214,spam,Zero-shot,Spam,Spam,135,3,0.3277
+SMS0214,spam,3-shot,Spam,Spam,231,3,0.3755
+SMS0215,spam,Zero-shot,Spam,Spam,125,3,0.2926
+SMS0215,spam,3-shot,Spam,Spam,221,3,0.3605
+SMS0216,spam,Zero-shot,Spam,Spam,165,3,0.3396
+SMS0216,spam,3-shot,Spam,Spam,261,3,0.426
+SMS0217,ham,Zero-shot,Spam,Spam,101,3,0.2841
+SMS0217,ham,3-shot,Spam,Spam,197,3,0.3508
+SMS0218,spam,Zero-shot,Spam,Spam,145,3,0.3402
+SMS0218,spam,3-shot,Spam,Spam,241,3,0.3877
+SMS0219,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2864
+SMS0219,ham,3-shot,Not Spam,Not Spam,200,3,0.3599
+SMS0220,spam,Zero-shot,Spam,Spam,149,3,0.3393
+SMS0220,spam,3-shot,Spam,Spam,245,3,0.3757
+SMS0221,spam,Zero-shot,Spam,Spam,137,3,0.3464
+SMS0221,spam,3-shot,Spam,Spam,233,3,0.3784
+SMS0222,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2933
+SMS0222,ham,3-shot,Not Spam,Not Spam,194,3,0.357
+SMS0223,ham,Zero-shot,Spam,Spam,101,3,0.2964
+SMS0223,ham,3-shot,Spam,Spam,197,3,0.3582
+SMS0224,ham,Zero-shot,Not Spam,Not Spam,135,3,0.3375
+SMS0224,ham,3-shot,Not Spam,Not Spam,231,3,0.3846
+SMS0225,ham,Zero-shot,Spam,Spam,103,3,0.2922
+SMS0225,ham,3-shot,Spam,Spam,199,3,0.3655
+SMS0226,ham,Zero-shot,Not Spam,Not Spam,107,3,0.3047
+SMS0226,ham,3-shot,Not Spam,Not Spam,203,3,0.3656
+SMS0227,spam,Zero-shot,Spam,Spam,136,3,0.3335
+SMS0227,spam,3-shot,Spam,Spam,232,3,0.3852
+SMS0228,ham,Zero-shot,Not Spam,Not Spam,133,3,0.3371
+SMS0228,ham,3-shot,Not Spam,Not Spam,229,3,0.3746
+SMS0229,ham,Zero-shot,Not Spam,Not Spam,139,3,0.3379
+SMS0229,ham,3-shot,Spam,Spam,235,3,0.3769
+SMS0230,ham,Zero-shot,Spam,Spam,98,3,0.2825
+SMS0230,ham,3-shot,Spam,Spam,194,3,0.3877
+SMS0231,spam,Zero-shot,Spam,Spam,135,3,0.3338
+SMS0231,spam,3-shot,Spam,Spam,231,3,0.3741
+SMS0232,ham,Zero-shot,Not Spam,Not Spam,102,3,0.3079
+SMS0232,ham,3-shot,Not Spam,Not Spam,198,3,0.3547
+SMS0233,ham,Zero-shot,Spam,Spam,104,3,0.2863
+SMS0233,ham,3-shot,Not Spam,Not Spam,200,3,0.3655
+SMS0234,spam,Zero-shot,Spam,Spam,125,3,0.2949
+SMS0234,spam,3-shot,Spam,Spam,221,3,0.3692
+SMS0235,ham,Zero-shot,Not Spam,Not Spam,117,3,0.2993
+SMS0235,ham,3-shot,Not Spam,Not Spam,213,3,0.3635
+SMS0236,ham,Zero-shot,Spam,Spam,129,3,0.3493
+SMS0236,ham,3-shot,Spam,Spam,225,3,0.3789
+SMS0237,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2849
+SMS0237,ham,3-shot,Not Spam,Not Spam,196,3,0.356
+SMS0238,ham,Zero-shot,Not Spam,Not Spam,120,3,0.2866
+SMS0238,ham,3-shot,Not Spam,Not Spam,216,3,0.3582
+SMS0239,ham,Zero-shot,Spam,Spam,131,3,0.3695
+SMS0239,ham,3-shot,Spam,Spam,227,3,0.3668
+SMS0240,spam,Zero-shot,Spam,Spam,151,3,0.329
+SMS0240,spam,3-shot,Spam,Spam,247,3,0.3883
+SMS0241,ham,Zero-shot,Not Spam,Not Spam,99,3,0.2951
+SMS0241,ham,3-shot,Not Spam,Not Spam,195,3,0.3657
+SMS0242,ham,Zero-shot,Not Spam,Not Spam,95,3,0.2855
+SMS0242,ham,3-shot,Not Spam,Not Spam,191,3,0.3502
+SMS0243,ham,Zero-shot,Not Spam,Not Spam,97,3,0.2823
+SMS0243,ham,3-shot,Not Spam,Not Spam,193,3,0.3575
+SMS0244,ham,Zero-shot,Spam,Spam,99,3,0.2806
+SMS0244,ham,3-shot,Not Spam,Not Spam,195,3,0.3545
+SMS0245,ham,Zero-shot,Not Spam,Not Spam,102,3,0.2902
+SMS0245,ham,3-shot,Not Spam,Not Spam,198,3,0.3591
+SMS0246,spam,Zero-shot,Spam,Spam,127,3,0.306
+SMS0246,spam,3-shot,Spam,Spam,223,3,0.3739
+SMS0247,spam,Zero-shot,Spam,Spam,152,3,0.3326
+SMS0247,spam,3-shot,Spam,Spam,248,3,0.376
+SMS0248,spam,Zero-shot,Spam,Spam,164,3,0.346
+SMS0248,spam,3-shot,Spam,Spam,260,3,0.4385
+SMS0249,ham,Zero-shot,Not Spam,Not Spam,130,3,0.3296
+SMS0249,ham,3-shot,Not Spam,Not Spam,226,3,0.3832
+SMS0250,spam,Zero-shot,Spam,Spam,136,3,0.335
+SMS0250,spam,3-shot,Spam,Spam,232,3,0.3862
+SMS0251,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2972
+SMS0251,ham,3-shot,Not Spam,Not Spam,200,3,0.3634
+SMS0252,ham,Zero-shot,Not Spam,Not Spam,146,3,0.3335
+SMS0252,ham,3-shot,Not Spam,Not Spam,242,3,0.3764
+SMS0253,ham,Zero-shot,Not Spam,Not Spam,102,3,0.285
+SMS0253,ham,3-shot,Not Spam,Not Spam,198,3,0.4076
+SMS0254,ham,Zero-shot,Not Spam,Not Spam,99,3,0.2902
+SMS0254,ham,3-shot,Not Spam,Not Spam,195,3,0.3545
+SMS0255,spam,Zero-shot,Spam,Spam,142,3,0.3397
+SMS0255,spam,3-shot,Spam,Spam,238,3,0.3775
+SMS0256,spam,Zero-shot,Spam,Spam,161,3,0.3394
+SMS0256,spam,3-shot,Spam,Spam,257,3,0.4251
+SMS0257,ham,Zero-shot,Not Spam,Not Spam,107,3,0.2851
+SMS0257,ham,3-shot,Not Spam,Not Spam,203,3,0.3668
+SMS0258,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2874
+SMS0258,ham,3-shot,Not Spam,Not Spam,200,3,0.3636
+SMS0259,ham,Zero-shot,Not Spam,Not Spam,110,3,0.2929
+SMS0259,ham,3-shot,Not Spam,Not Spam,206,3,0.3648
+SMS0260,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2914
+SMS0260,ham,3-shot,Not Spam,Not Spam,194,3,0.3508
+SMS0261,spam,Zero-shot,Spam,Spam,137,3,0.339
+SMS0261,spam,3-shot,Spam,Spam,233,3,0.3765
+SMS0262,ham,Zero-shot,Spam,Spam,103,3,0.2923
+SMS0262,ham,3-shot,Not Spam,Not Spam,199,3,0.3559
+SMS0263,spam,Zero-shot,Spam,Spam,134,3,0.325
+SMS0263,spam,3-shot,Spam,Spam,230,3,0.3692
+SMS0264,spam,Zero-shot,Spam,Spam,162,3,0.3399
+SMS0264,spam,3-shot,Spam,Spam,258,3,0.4213
+SMS0265,spam,Zero-shot,Spam,Spam,129,3,0.3271
+SMS0265,spam,3-shot,Spam,Spam,225,3,0.3728
+SMS0266,ham,Zero-shot,Not Spam,Not Spam,149,3,0.3317
+SMS0266,ham,3-shot,Not Spam,Not Spam,245,3,0.4103
+SMS0267,ham,Zero-shot,Spam,Spam,125,3,0.2905
+SMS0267,ham,3-shot,Spam,Spam,221,3,0.3706
+SMS0268,spam,Zero-shot,Spam,Spam,133,3,0.358
+SMS0268,spam,3-shot,Spam,Spam,229,3,0.3718
+SMS0269,ham,Zero-shot,Not Spam,Not Spam,102,3,0.281
+SMS0269,ham,3-shot,Not Spam,Not Spam,198,3,0.3557
+SMS0270,spam,Zero-shot,Spam,Spam,149,3,0.3359
+SMS0270,spam,3-shot,Spam,Spam,245,3,0.3742
+SMS0271,ham,Zero-shot,Not Spam,Not Spam,114,3,0.2928
+SMS0271,ham,3-shot,Not Spam,Not Spam,210,3,0.3664
+SMS0272,ham,Zero-shot,Spam,Spam,129,3,0.3204
+SMS0272,ham,3-shot,Spam,Spam,225,3,0.3673
+SMS0273,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2961
+SMS0273,ham,3-shot,Not Spam,Not Spam,197,3,0.3543
+SMS0274,ham,Zero-shot,Not Spam,Not Spam,106,3,0.2871
+SMS0274,ham,3-shot,Not Spam,Not Spam,202,3,0.373
+SMS0275,spam,Zero-shot,Spam,Spam,129,3,0.3286
+SMS0275,spam,3-shot,Spam,Spam,225,3,0.3738
+SMS0276,spam,Zero-shot,Spam,Spam,134,3,0.3275
+SMS0276,spam,3-shot,Spam,Spam,230,3,0.3714
+SMS0277,spam,Zero-shot,Spam,Spam,144,3,0.3331
+SMS0277,spam,3-shot,Spam,Spam,240,3,0.3744
+SMS0278,ham,Zero-shot,Not Spam,Not Spam,106,3,0.2866
+SMS0278,ham,3-shot,Not Spam,Not Spam,202,3,0.3638
+SMS0279,spam,Zero-shot,Spam,Spam,131,3,0.3265
+SMS0279,spam,3-shot,Spam,Spam,227,3,0.3773
+SMS0280,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2841
+SMS0280,ham,3-shot,Not Spam,Not Spam,197,3,0.3517
+SMS0281,ham,Zero-shot,Not Spam,Not Spam,99,3,0.2893
+SMS0281,ham,3-shot,Not Spam,Not Spam,195,3,0.356
+SMS0282,ham,Zero-shot,Not Spam,Not Spam,109,3,0.3365
+SMS0282,ham,3-shot,Not Spam,Not Spam,205,3,0.3827
+SMS0283,spam,Zero-shot,Spam,Spam,143,3,0.3932
+SMS0283,spam,3-shot,Spam,Spam,239,3,0.3741
+SMS0284,ham,Zero-shot,Not Spam,Not Spam,99,3,0.2897
+SMS0284,ham,3-shot,Not Spam,Not Spam,195,3,0.3572
+SMS0285,spam,Zero-shot,Spam,Spam,149,3,0.3301
+SMS0285,spam,3-shot,Spam,Spam,245,3,0.3748
+SMS0286,spam,Zero-shot,Spam,Spam,157,3,0.3325
+SMS0286,spam,3-shot,Spam,Spam,253,3,0.38
+SMS0287,spam,Zero-shot,Spam,Spam,136,3,0.324
+SMS0287,spam,3-shot,Spam,Spam,232,3,0.3694
+SMS0288,ham,Zero-shot,Not Spam,Not Spam,108,3,0.2836
+SMS0288,ham,3-shot,Not Spam,Not Spam,204,3,0.3643
+SMS0289,ham,Zero-shot,Not Spam,Not Spam,111,3,0.2898
+SMS0289,ham,3-shot,Not Spam,Not Spam,207,3,0.3577
+SMS0290,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2861
+SMS0290,ham,3-shot,Not Spam,Not Spam,197,3,0.3615
+SMS0291,spam,Zero-shot,Spam,Spam,128,3,0.3172
+SMS0291,spam,3-shot,Spam,Spam,224,3,0.3728
+SMS0292,ham,Zero-shot,Not Spam,Not Spam,99,3,0.282
+SMS0292,ham,3-shot,Not Spam,Not Spam,195,3,0.3682
+SMS0293,spam,Zero-shot,Spam,Spam,120,3,0.2893
+SMS0293,spam,3-shot,Spam,Spam,216,3,0.3649
+SMS0294,ham,Zero-shot,Not Spam,Not Spam,110,3,0.2989
+SMS0294,ham,3-shot,Not Spam,Not Spam,206,3,0.3638
+SMS0295,ham,Zero-shot,Spam,Spam,106,3,0.2861
+SMS0295,ham,3-shot,Not Spam,Not Spam,202,3,0.3697
+SMS0296,ham,Zero-shot,Spam,Spam,104,3,0.3107
+SMS0296,ham,3-shot,Spam,Spam,200,3,0.3767
+SMS0297,ham,Zero-shot,Not Spam,Not Spam,104,3,0.3329
+SMS0297,ham,3-shot,Not Spam,Not Spam,200,3,0.3962
+SMS0298,spam,Zero-shot,Spam,Spam,135,3,0.3415
+SMS0298,spam,3-shot,Spam,Spam,231,3,0.39
+SMS0299,spam,Zero-shot,Spam,Spam,130,3,0.3307
+SMS0299,spam,3-shot,Spam,Spam,226,3,0.374
+SMS0300,ham,Zero-shot,Not Spam,Not Spam,130,3,0.3373
+SMS0300,ham,3-shot,Not Spam,Not Spam,226,3,0.3762
+SMS0301,ham,Zero-shot,Not Spam,Not Spam,113,3,0.3017
+SMS0301,ham,3-shot,Not Spam,Not Spam,209,3,0.3763
+SMS0302,spam,Zero-shot,Spam,Spam,132,3,0.334
+SMS0302,spam,3-shot,Spam,Spam,228,3,0.3694
+SMS0303,ham,Zero-shot,Not Spam,Not Spam,99,3,0.3005
+SMS0303,ham,3-shot,Not Spam,Not Spam,195,3,0.3573
+SMS0304,ham,Zero-shot,Not Spam,Not Spam,95,3,0.2784
+SMS0304,ham,3-shot,Not Spam,Not Spam,191,3,0.3595
+SMS0305,ham,Zero-shot,Spam,Spam,102,3,0.2862
+SMS0305,ham,3-shot,Spam,Spam,198,3,0.3576
+SMS0306,ham,Zero-shot,Spam,Spam,119,3,0.3092
+SMS0306,ham,3-shot,Spam,Spam,215,3,0.3693
+SMS0307,spam,Zero-shot,Spam,Spam,150,3,0.3341
+SMS0307,spam,3-shot,Spam,Spam,246,3,0.3919
+SMS0308,spam,Zero-shot,Spam,Spam,129,3,0.2982
+SMS0308,spam,3-shot,Spam,Spam,225,3,0.371
+SMS0309,ham,Zero-shot,Spam,Spam,104,3,0.3037
+SMS0309,ham,3-shot,Not Spam,Not Spam,200,3,0.3611
+SMS0310,ham,Zero-shot,Spam,Spam,99,3,0.2832
+SMS0310,ham,3-shot,Not Spam,Not Spam,195,3,0.3764
+SMS0311,ham,Zero-shot,Spam,Spam,131,3,0.3542
+SMS0311,ham,3-shot,Not Spam,Not Spam,227,3,0.3927
+SMS0312,ham,Zero-shot,Not Spam,Not Spam,105,3,0.3286
+SMS0312,ham,3-shot,Not Spam,Not Spam,201,3,0.4178
+SMS0313,spam,Zero-shot,Spam,Spam,159,3,0.3391
+SMS0313,spam,3-shot,Spam,Spam,255,3,0.3853
+SMS0314,spam,Zero-shot,Spam,Spam,147,3,0.3327
+SMS0314,spam,3-shot,Spam,Spam,243,3,0.3758
+SMS0315,ham,Zero-shot,Not Spam,Not Spam,110,3,0.2936
+SMS0315,ham,3-shot,Not Spam,Not Spam,206,3,0.3543
+SMS0316,ham,Zero-shot,Not Spam,Not Spam,110,3,0.2946
+SMS0316,ham,3-shot,Not Spam,Not Spam,206,3,0.3765
+SMS0317,spam,Zero-shot,Spam,Spam,153,3,0.33
+SMS0317,spam,3-shot,Spam,Spam,249,3,0.3796
+SMS0318,spam,Zero-shot,Spam,Spam,121,3,0.3023
+SMS0318,spam,3-shot,Spam,Spam,217,3,0.3784
+SMS0319,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2923
+SMS0319,ham,3-shot,Not Spam,Not Spam,196,3,0.3803
+SMS0320,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2926
+SMS0320,ham,3-shot,Not Spam,Not Spam,196,3,0.3694
+SMS0321,spam,Zero-shot,Spam,Spam,163,3,0.356
+SMS0321,spam,3-shot,Spam,Spam,259,3,0.4228
+SMS0322,ham,Zero-shot,Not Spam,Not Spam,110,3,0.2862
+SMS0322,ham,3-shot,Not Spam,Not Spam,206,3,0.3618
+SMS0323,ham,Zero-shot,Not Spam,Not Spam,142,3,0.3349
+SMS0323,ham,3-shot,Not Spam,Not Spam,238,3,0.3737
+SMS0324,ham,Zero-shot,Not Spam,Not Spam,123,3,0.2842
+SMS0324,ham,3-shot,Not Spam,Not Spam,219,3,0.372
+SMS0325,spam,Zero-shot,Spam,Spam,136,3,0.3246
+SMS0325,spam,3-shot,Spam,Spam,232,3,0.3678
+SMS0326,spam,Zero-shot,Spam,Spam,138,3,0.3374
+SMS0326,spam,3-shot,Spam,Spam,234,3,0.3921
+SMS0327,spam,Zero-shot,Spam,Spam,161,3,0.3774
+SMS0327,spam,3-shot,Spam,Spam,257,3,0.4381
+SMS0328,ham,Zero-shot,Not Spam,Not Spam,117,3,0.3022
+SMS0328,ham,3-shot,Not Spam,Not Spam,213,3,0.3735
+SMS0329,spam,Zero-shot,Spam,Spam,148,3,0.3381
+SMS0329,spam,3-shot,Spam,Spam,244,3,0.3882
+SMS0330,ham,Zero-shot,Spam,Spam,98,3,0.2794
+SMS0330,ham,3-shot,Not Spam,Not Spam,194,3,0.3536
+SMS0331,spam,Zero-shot,Spam,Spam,122,3,0.2876
+SMS0331,spam,3-shot,Spam,Spam,218,3,0.3763
+SMS0332,spam,Zero-shot,Spam,Spam,151,3,0.3344
+SMS0332,spam,3-shot,Spam,Spam,247,3,0.3789
+SMS0333,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2914
+SMS0333,ham,3-shot,Not Spam,Not Spam,194,3,0.359
+SMS0334,spam,Zero-shot,Spam,Spam,107,3,0.2885
+SMS0334,spam,3-shot,Spam,Spam,203,3,0.3762
+SMS0335,spam,Zero-shot,Spam,Spam,151,3,0.3388
+SMS0335,spam,3-shot,Spam,Spam,247,3,0.3776
+SMS0336,spam,Zero-shot,Spam,Spam,152,3,0.3391
+SMS0336,spam,3-shot,Spam,Spam,248,3,0.3861
+SMS0337,ham,Zero-shot,Not Spam,Not Spam,118,3,0.2872
+SMS0337,ham,3-shot,Not Spam,Not Spam,214,3,0.3698
+SMS0338,spam,Zero-shot,Spam,Spam,149,3,0.3416
+SMS0338,spam,3-shot,Spam,Spam,245,3,0.3985
+SMS0339,ham,Zero-shot,Spam,Spam,126,3,0.2933
+SMS0339,ham,3-shot,Not Spam,Not Spam,222,3,0.3831
+SMS0340,spam,Zero-shot,Spam,Spam,149,3,0.344
+SMS0340,spam,3-shot,Spam,Spam,245,3,0.3966
+SMS0341,ham,Zero-shot,Spam,Spam,117,3,0.3159
+SMS0341,ham,3-shot,Spam,Spam,213,3,0.416
+SMS0342,spam,Zero-shot,Not Spam,Not Spam,140,3,0.3327
+SMS0342,spam,3-shot,INVALID,Label: Not Spam,236,5,0.5248
+SMS0343,spam,Zero-shot,Not Spam,Not Spam,136,3,0.3321
+SMS0343,spam,3-shot,Spam,Spam,232,3,0.3725
+SMS0344,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2848
+SMS0344,ham,3-shot,Not Spam,Not Spam,197,3,0.3708
+SMS0345,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2981
+SMS0345,ham,3-shot,Not Spam,Not Spam,200,3,0.3607
+SMS0346,ham,Zero-shot,Spam,Spam,101,3,0.2886
+SMS0346,ham,3-shot,Not Spam,Not Spam,197,3,0.3659
+SMS0347,ham,Zero-shot,Not Spam,Not Spam,99,3,0.2897
+SMS0347,ham,3-shot,Not Spam,Not Spam,195,3,0.3657
+SMS0348,ham,Zero-shot,Not Spam,Not Spam,97,3,0.2893
+SMS0348,ham,3-shot,Not Spam,Not Spam,193,3,0.365
+SMS0349,spam,Zero-shot,Spam,Spam,153,3,0.3506
+SMS0349,spam,3-shot,Spam,Spam,249,3,0.3869
+SMS0350,spam,Zero-shot,Spam,Spam,158,3,0.3494
+SMS0350,spam,3-shot,Spam,Spam,254,3,0.3896
+SMS0351,spam,Zero-shot,Spam,Spam,162,3,0.3496
+SMS0351,spam,3-shot,Spam,Spam,258,3,0.4461
+SMS0352,spam,Zero-shot,Spam,Spam,135,3,0.3344
+SMS0352,spam,3-shot,Spam,Spam,231,3,0.3768
+SMS0353,ham,Zero-shot,Not Spam,Not Spam,103,3,0.2974
+SMS0353,ham,3-shot,Not Spam,Not Spam,199,3,0.3743
+SMS0354,spam,Zero-shot,Spam,Spam,131,3,0.3311
+SMS0354,spam,3-shot,Spam,Spam,227,3,0.3899
+SMS0355,ham,Zero-shot,Not Spam,Not Spam,111,3,0.2965
+SMS0355,ham,3-shot,Not Spam,Not Spam,207,3,0.4309
+SMS0356,ham,Zero-shot,Not Spam,Not Spam,103,3,0.408
+SMS0356,ham,3-shot,Not Spam,Not Spam,199,3,0.4063
+SMS0357,spam,Zero-shot,Spam,Spam,139,3,0.3519
+SMS0357,spam,3-shot,Spam,Spam,235,3,0.3962
+SMS0358,ham,Zero-shot,Not Spam,Not Spam,130,3,0.3456
+SMS0358,ham,3-shot,Not Spam,Not Spam,226,3,0.3835
+SMS0359,ham,Zero-shot,Not Spam,Not Spam,110,3,0.2917
+SMS0359,ham,3-shot,Not Spam,Not Spam,206,3,0.3818
+SMS0360,spam,Zero-shot,Spam,Spam,146,3,0.3379
+SMS0360,spam,3-shot,Spam,Spam,242,3,0.3803
+SMS0361,spam,Zero-shot,Spam,Spam,154,3,0.3606
+SMS0361,spam,3-shot,Spam,Spam,250,3,0.399
+SMS0362,ham,Zero-shot,Not Spam,Not Spam,107,3,0.2902
+SMS0362,ham,3-shot,Not Spam,Not Spam,203,3,0.3621
+SMS0363,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2941
+SMS0363,ham,3-shot,Not Spam,Not Spam,197,3,0.3675
+SMS0364,ham,Zero-shot,Not Spam,Not Spam,108,3,0.2902
+SMS0364,ham,3-shot,Not Spam,Not Spam,204,3,0.3694
+SMS0365,ham,Zero-shot,Not Spam,Not Spam,105,3,0.2986
+SMS0365,ham,3-shot,Not Spam,Not Spam,201,3,0.3711
+SMS0366,spam,Zero-shot,Spam,Spam,156,3,0.3453
+SMS0366,spam,3-shot,Spam,Spam,252,3,0.3887
+SMS0367,ham,Zero-shot,Not Spam,Not Spam,112,3,0.2993
+SMS0367,ham,3-shot,Not Spam,Not Spam,208,3,0.385
+SMS0368,spam,Zero-shot,Spam,Spam,147,3,0.3422
+SMS0368,spam,3-shot,Spam,Spam,243,3,0.3921
+SMS0369,spam,Zero-shot,Spam,Spam,141,3,0.3572
+SMS0369,spam,3-shot,Spam,Spam,237,3,0.4372
+SMS0370,ham,Zero-shot,Not Spam,Not Spam,106,3,0.3194
+SMS0370,ham,3-shot,Not Spam,Not Spam,202,3,0.3975
+SMS0371,ham,Zero-shot,Not Spam,Not Spam,125,3,0.3104
+SMS0371,ham,3-shot,Not Spam,Not Spam,221,3,0.3908
+SMS0372,spam,Zero-shot,Spam,Spam,151,3,0.3386
+SMS0372,spam,3-shot,Spam,Spam,247,3,0.3839
+SMS0373,spam,Zero-shot,Spam,Spam,147,3,0.3474
+SMS0373,spam,3-shot,Spam,Spam,243,3,0.4079
+SMS0374,spam,Zero-shot,Spam,Spam,161,3,0.357
+SMS0374,spam,3-shot,Spam,Spam,257,3,0.4588
+SMS0375,spam,Zero-shot,Spam,Spam,162,3,0.3515
+SMS0375,spam,3-shot,Spam,Spam,258,3,0.4449
+SMS0376,spam,Zero-shot,Spam,Spam,148,3,0.3489
+SMS0376,spam,3-shot,Spam,Spam,244,3,0.3885
+SMS0377,spam,Zero-shot,Spam,Spam,143,3,0.3387
+SMS0377,spam,3-shot,Spam,Spam,239,3,0.386
+SMS0378,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2909
+SMS0378,ham,3-shot,Not Spam,Not Spam,196,3,0.3695
+SMS0379,spam,Zero-shot,Spam,Spam,112,3,0.2977
+SMS0379,spam,3-shot,Spam,Spam,208,3,0.3755
+SMS0380,spam,Zero-shot,Not Spam,Not Spam,140,3,0.3365
+SMS0380,spam,3-shot,INVALID,Label: Not Spam,236,5,0.5489
+SMS0381,spam,Zero-shot,Spam,Spam,162,3,0.3452
+SMS0381,spam,3-shot,Spam,Spam,258,3,0.4327
+SMS0382,spam,Zero-shot,Spam,Spam,111,3,0.2932
+SMS0382,spam,3-shot,Spam,Spam,207,3,0.3726
+SMS0383,spam,Zero-shot,Spam,Spam,147,3,0.3418
+SMS0383,spam,3-shot,Spam,Spam,243,3,0.4013
+SMS0384,ham,Zero-shot,Not Spam,Not Spam,97,3,0.3001
+SMS0384,ham,3-shot,Not Spam,Not Spam,193,3,0.3828
+SMS0385,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2964
+SMS0385,ham,3-shot,Not Spam,Not Spam,194,3,0.3677
+SMS0386,spam,Zero-shot,Spam,Spam,150,3,0.3434
+SMS0386,spam,3-shot,Spam,Spam,246,3,0.3865
+SMS0387,ham,Zero-shot,Spam,Spam,100,3,0.2949
+SMS0387,ham,3-shot,Not Spam,Not Spam,196,3,0.3686
+SMS0388,ham,Zero-shot,Not Spam,Not Spam,97,3,0.2959
+SMS0388,ham,3-shot,Not Spam,Not Spam,193,3,0.3652
+SMS0389,ham,Zero-shot,Spam,Spam,124,3,0.3073
+SMS0389,ham,3-shot,INVALID,Label: Not Spam,220,5,0.5327
+SMS0390,spam,Zero-shot,Spam,Spam,150,3,0.361
+SMS0390,spam,3-shot,Spam,Spam,246,3,0.3967
+SMS0391,ham,Zero-shot,Not Spam,Not Spam,122,3,0.3066
+SMS0391,ham,3-shot,Not Spam,Not Spam,218,3,0.398
+SMS0392,spam,Zero-shot,Spam,Spam,113,3,0.3048
+SMS0392,spam,3-shot,Spam,Spam,209,3,0.381
+SMS0393,ham,Zero-shot,Not Spam,Not Spam,99,3,0.3151
+SMS0393,ham,3-shot,Not Spam,Not Spam,195,3,0.3745
+SMS0394,ham,Zero-shot,Not Spam,Not Spam,105,3,0.3039
+SMS0394,ham,3-shot,Not Spam,Not Spam,201,3,0.3912
+SMS0395,ham,Zero-shot,Not Spam,Not Spam,137,3,0.341
+SMS0395,ham,3-shot,Not Spam,Not Spam,233,3,0.3843
+SMS0396,spam,Zero-shot,Spam,Spam,164,3,0.3568
+SMS0396,spam,3-shot,Spam,Spam,260,3,0.4478
+SMS0397,spam,Zero-shot,Spam,Spam,126,3,0.3063
+SMS0397,spam,3-shot,Spam,Spam,222,3,0.3881
+SMS0398,spam,Zero-shot,Spam,Spam,119,3,0.3119
+SMS0398,spam,3-shot,Spam,Spam,215,3,0.3839
+SMS0399,ham,Zero-shot,Not Spam,Not Spam,127,3,0.3112
+SMS0399,ham,3-shot,Not Spam,Not Spam,223,3,0.3856
+SMS0400,spam,Zero-shot,Spam,Spam,139,3,0.3441
+SMS0400,spam,3-shot,Spam,Spam,235,3,0.3914
+SMS0401,spam,Zero-shot,Spam,Spam,155,3,0.3466
+SMS0401,spam,3-shot,Spam,Spam,251,3,0.4123
+SMS0402,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2886
+SMS0402,ham,3-shot,Not Spam,Not Spam,200,3,0.3687
+SMS0403,ham,Zero-shot,Not Spam,Not Spam,119,3,0.3023
+SMS0403,ham,3-shot,Not Spam,Not Spam,215,3,0.3873
+SMS0404,ham,Zero-shot,Not Spam,Not Spam,108,3,0.3054
+SMS0404,ham,3-shot,Not Spam,Not Spam,204,3,0.4005
+SMS0405,ham,Zero-shot,Spam,Spam,105,3,0.3055
+SMS0405,ham,3-shot,Spam,Spam,201,3,0.3823
+SMS0406,spam,Zero-shot,Spam,Spam,146,3,0.3761
+SMS0406,spam,3-shot,Spam,Spam,242,3,0.3889
+SMS0407,spam,Zero-shot,Spam,Spam,160,3,0.3492
+SMS0407,spam,3-shot,Spam,Spam,256,3,0.4122
+SMS0408,spam,Zero-shot,Spam,Spam,152,3,0.3693
+SMS0408,spam,3-shot,Spam,Spam,248,3,0.4029
+SMS0409,spam,Zero-shot,Spam,Spam,146,3,0.3455
+SMS0409,spam,3-shot,Spam,Spam,242,3,0.3924
+SMS0410,spam,Zero-shot,Spam,Spam,151,3,0.3545
+SMS0410,spam,3-shot,Spam,Spam,247,3,0.4027
+SMS0411,spam,Zero-shot,Spam,Spam,111,3,0.3016
+SMS0411,spam,3-shot,Spam,Spam,207,3,0.4006
+SMS0412,ham,Zero-shot,Not Spam,Not Spam,99,3,0.2931
+SMS0412,ham,3-shot,Not Spam,Not Spam,195,3,0.3754
+SMS0413,spam,Zero-shot,Spam,Spam,155,3,0.3694
+SMS0413,spam,3-shot,Spam,Spam,251,3,0.3986
+SMS0414,spam,Zero-shot,Spam,Spam,154,3,0.3488
+SMS0414,spam,3-shot,Spam,Spam,250,3,0.4002
+SMS0415,spam,Zero-shot,Spam,Spam,121,3,0.2976
+SMS0415,spam,3-shot,Spam,Spam,217,3,0.3838
+SMS0416,ham,Zero-shot,Not Spam,Not Spam,102,3,0.3102
+SMS0416,ham,3-shot,Not Spam,Not Spam,198,3,0.3745
+SMS0417,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2962
+SMS0417,ham,3-shot,Not Spam,Not Spam,197,3,0.3781
+SMS0418,ham,Zero-shot,Spam,Spam,109,3,0.2927
+SMS0418,ham,3-shot,Not Spam,Not Spam,205,3,0.3824
+SMS0419,ham,Zero-shot,Not Spam,Not Spam,102,3,0.3154
+SMS0419,ham,3-shot,Not Spam,Not Spam,198,3,0.3675
+SMS0420,spam,Zero-shot,Spam,Spam,138,3,0.3441
+SMS0420,spam,3-shot,Spam,Spam,234,3,0.3853
+SMS0421,ham,Zero-shot,Not Spam,Not Spam,104,3,0.301
+SMS0421,ham,3-shot,Not Spam,Not Spam,200,3,0.4058
+SMS0422,spam,Zero-shot,Spam,Spam,151,3,0.356
+SMS0422,spam,3-shot,Spam,Spam,247,3,0.3994
+SMS0423,ham,Zero-shot,Not Spam,Not Spam,104,3,0.3064
+SMS0423,ham,3-shot,Not Spam,Not Spam,200,3,0.3776
+SMS0424,ham,Zero-shot,Not Spam,Not Spam,105,3,0.2989
+SMS0424,ham,3-shot,Not Spam,Not Spam,201,3,0.3804
+SMS0425,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2993
+SMS0425,ham,3-shot,Not Spam,Not Spam,197,3,0.4239
+SMS0426,ham,Zero-shot,Not Spam,Not Spam,107,3,0.3024
+SMS0426,ham,3-shot,Not Spam,Not Spam,203,3,0.3733
+SMS0427,spam,Zero-shot,Spam,Spam,139,3,0.3502
+SMS0427,spam,3-shot,Spam,Spam,235,3,0.3992
+SMS0428,spam,Zero-shot,Spam,Spam,141,3,0.344
+SMS0428,spam,3-shot,Spam,Spam,237,3,0.386
+SMS0429,spam,Zero-shot,Spam,Spam,136,3,0.3539
+SMS0429,spam,3-shot,Spam,Spam,232,3,0.3907
+SMS0430,spam,Zero-shot,Spam,Spam,127,3,0.3051
+SMS0430,spam,3-shot,Spam,Spam,223,3,0.3983
+SMS0431,spam,Zero-shot,Spam,Spam,104,3,0.2974
+SMS0431,spam,3-shot,Spam,Spam,200,3,0.3757
+SMS0432,ham,Zero-shot,Not Spam,Not Spam,98,3,0.3088
+SMS0432,ham,3-shot,Not Spam,Not Spam,194,3,0.3738
+SMS0433,ham,Zero-shot,Not Spam,Not Spam,105,3,0.3065
+SMS0433,ham,3-shot,Not Spam,Not Spam,201,3,0.3934
+SMS0434,ham,Zero-shot,Not Spam,Not Spam,117,3,0.3036
+SMS0434,ham,3-shot,Not Spam,Not Spam,213,3,0.3869
+SMS0435,spam,Zero-shot,Spam,Spam,146,3,0.3597
+SMS0435,spam,3-shot,Spam,Spam,242,3,0.3987
+SMS0436,spam,Zero-shot,Spam,Spam,146,3,0.3711
+SMS0436,spam,3-shot,Spam,Spam,242,3,0.3972
+SMS0437,ham,Zero-shot,Not Spam,Not Spam,101,3,0.3188
+SMS0437,ham,3-shot,Not Spam,Not Spam,197,3,0.3829
+SMS0438,ham,Zero-shot,Not Spam,Not Spam,110,3,0.3015
+SMS0438,ham,3-shot,Not Spam,Not Spam,206,3,0.3756
+SMS0439,ham,Zero-shot,Not Spam,Not Spam,108,3,0.3032
+SMS0439,ham,3-shot,Not Spam,Not Spam,204,3,0.3747
+SMS0440,ham,Zero-shot,Not Spam,Not Spam,109,3,0.3339
+SMS0440,ham,3-shot,Not Spam,Not Spam,205,3,0.3799
+SMS0441,ham,Zero-shot,Spam,Spam,101,3,0.3145
+SMS0441,ham,3-shot,Spam,Spam,197,3,0.3728
+SMS0442,spam,Zero-shot,Spam,Spam,149,3,0.3494
+SMS0442,spam,3-shot,Spam,Spam,245,3,0.4052
+SMS0443,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2972
+SMS0443,ham,3-shot,Not Spam,Not Spam,197,3,0.384
+SMS0444,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2924
+SMS0444,ham,3-shot,Not Spam,Not Spam,197,3,0.3699
+SMS0445,ham,Zero-shot,Spam,Spam,101,3,0.2958
+SMS0445,ham,3-shot,Not Spam,Not Spam,197,3,0.375
+SMS0446,spam,Zero-shot,Spam,Spam,127,3,0.3051
+SMS0446,spam,3-shot,Spam,Spam,223,3,0.4027
+SMS0447,spam,Zero-shot,Spam,Spam,110,3,0.3009
+SMS0447,spam,3-shot,Spam,Spam,206,3,0.3864
+SMS0448,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2953
+SMS0448,ham,3-shot,Not Spam,Not Spam,194,3,0.3743
+SMS0449,spam,Zero-shot,Spam,Spam,131,3,0.3386
+SMS0449,spam,3-shot,Spam,Spam,227,3,0.4417
+SMS0450,ham,Zero-shot,Not Spam,Not Spam,99,3,0.3039
+SMS0450,ham,3-shot,Not Spam,Not Spam,195,3,0.3691
+SMS0451,spam,Zero-shot,Spam,Spam,137,3,0.3565
+SMS0451,spam,3-shot,Spam,Spam,233,3,0.3884
+SMS0452,spam,Zero-shot,Spam,Spam,154,3,0.3509
+SMS0452,spam,3-shot,Spam,Spam,250,3,0.4172
+SMS0453,ham,Zero-shot,Not Spam,Not Spam,103,3,0.3021
+SMS0453,ham,3-shot,Not Spam,Not Spam,199,3,0.3765
+SMS0454,spam,Zero-shot,Spam,Spam,150,3,0.414
+SMS0454,spam,3-shot,Spam,Spam,246,3,0.4093
+SMS0455,ham,Zero-shot,Not Spam,Not Spam,99,3,0.3052
+SMS0455,ham,3-shot,Not Spam,Not Spam,195,3,0.3819
+SMS0456,spam,Zero-shot,Spam,Spam,116,3,0.3049
+SMS0456,spam,3-shot,Spam,Spam,212,3,0.3903
+SMS0457,ham,Zero-shot,Spam,Spam,130,3,0.3467
+SMS0457,ham,3-shot,Not Spam,Not Spam,226,3,0.3961
+SMS0458,spam,Zero-shot,Spam,Spam,147,3,0.3701
+SMS0458,spam,3-shot,Spam,Spam,243,3,0.3908
+SMS0459,ham,Zero-shot,Not Spam,Not Spam,116,3,0.2994
+SMS0459,ham,3-shot,Not Spam,Not Spam,212,3,0.3983
+SMS0460,ham,Zero-shot,Not Spam,Not Spam,108,3,0.2961
+SMS0460,ham,3-shot,Not Spam,Not Spam,204,3,0.3729
+SMS0461,ham,Zero-shot,Not Spam,Not Spam,102,3,0.327
+SMS0461,ham,3-shot,Not Spam,Not Spam,198,3,0.3746
+SMS0462,spam,Zero-shot,Spam,Spam,154,3,0.3603
+SMS0462,spam,3-shot,Spam,Spam,250,3,0.4131
+SMS0463,ham,Zero-shot,Spam,Spam,111,3,0.3023
+SMS0463,ham,3-shot,Not Spam,Not Spam,207,3,0.377
+SMS0464,spam,Zero-shot,Spam,Spam,132,3,0.352
+SMS0464,spam,3-shot,Spam,Spam,228,3,0.3888
+SMS0465,ham,Zero-shot,Spam,Spam,122,3,0.3123
+SMS0465,ham,3-shot,Not Spam,Not Spam,218,3,0.4048
+SMS0466,spam,Zero-shot,Spam,Spam,149,3,0.357
+SMS0466,spam,3-shot,Spam,Spam,245,3,0.4101
+SMS0467,spam,Zero-shot,Spam,Spam,145,3,0.3704
+SMS0467,spam,3-shot,Spam,Spam,241,3,0.3917
+SMS0468,ham,Zero-shot,Not Spam,Not Spam,102,3,0.3473
+SMS0468,ham,3-shot,Not Spam,Not Spam,198,3,0.3724
+SMS0469,ham,Zero-shot,Spam,Spam,135,3,0.3513
+SMS0469,ham,3-shot,Spam,Spam,231,3,0.3994
+SMS0470,spam,Zero-shot,Spam,Spam,130,3,0.3362
+SMS0470,spam,3-shot,Spam,Spam,226,3,0.3793
+SMS0471,ham,Zero-shot,Not Spam,Not Spam,158,3,0.3557
+SMS0471,ham,3-shot,Not Spam,Not Spam,254,3,0.3981
+SMS0472,spam,Zero-shot,Spam,Spam,141,3,0.3459
+SMS0472,spam,3-shot,Spam,Spam,237,3,0.3855
+SMS0473,ham,Zero-shot,Spam,Spam,126,3,0.3039
+SMS0473,ham,3-shot,Not Spam,Not Spam,222,3,0.3887
+SMS0474,ham,Zero-shot,Not Spam,Not Spam,106,3,0.3006
+SMS0474,ham,3-shot,Not Spam,Not Spam,202,3,0.3887
+SMS0475,spam,Zero-shot,Spam,Spam,146,3,0.3501
+SMS0475,spam,3-shot,Spam,Spam,242,3,0.3899
+SMS0476,ham,Zero-shot,Spam,Spam,124,3,0.3102
+SMS0476,ham,3-shot,Not Spam,Not Spam,220,3,0.406
+SMS0477,ham,Zero-shot,Spam,Spam,107,3,0.2973
+SMS0477,ham,3-shot,Not Spam,Not Spam,203,3,0.3784
+SMS0478,spam,Zero-shot,Spam,Spam,139,3,0.364
+SMS0478,spam,3-shot,Spam,Spam,235,3,0.3867
+SMS0479,spam,Zero-shot,Spam,Spam,137,3,0.3425
+SMS0479,spam,3-shot,Spam,Spam,233,3,0.406
+SMS0480,spam,Zero-shot,Spam,Spam,125,3,0.3087
+SMS0480,spam,3-shot,Spam,Spam,221,3,0.398
+SMS0481,spam,Zero-shot,Spam,Spam,154,3,0.3542
+SMS0481,spam,3-shot,Spam,Spam,250,3,0.4012
+SMS0482,ham,Zero-shot,Spam,Spam,110,3,0.3301
+SMS0482,ham,3-shot,Not Spam,Not Spam,206,3,0.3759
+SMS0483,spam,Zero-shot,Spam,Spam,133,3,0.3478
+SMS0483,spam,3-shot,Spam,Spam,229,3,0.3895
+SMS0484,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2975
+SMS0484,ham,3-shot,Not Spam,Not Spam,194,3,0.3749
+SMS0485,spam,Zero-shot,Spam,Spam,148,3,0.3544
+SMS0485,spam,3-shot,Spam,Spam,244,3,0.4003
+SMS0486,ham,Zero-shot,Spam,Spam,106,3,0.3032
+SMS0486,ham,3-shot,Not Spam,Not Spam,202,3,0.3876
+SMS0487,spam,Zero-shot,Spam,Spam,163,3,0.3697
+SMS0487,spam,3-shot,Spam,Spam,259,3,0.4513
+SMS0488,ham,Zero-shot,Not Spam,Not Spam,98,3,0.3144
+SMS0488,ham,3-shot,Not Spam,Not Spam,194,3,0.3758
+SMS0489,spam,Zero-shot,Spam,Spam,113,3,0.3009
+SMS0489,spam,3-shot,Spam,Spam,209,3,0.3958
+SMS0490,spam,Zero-shot,Spam,Spam,160,3,0.3593
+SMS0490,spam,3-shot,Spam,Spam,256,3,0.3979
+SMS0491,spam,Zero-shot,Spam,Spam,158,3,0.3609
+SMS0491,spam,3-shot,Spam,Spam,254,3,0.4214
+SMS0492,spam,Zero-shot,Spam,Spam,165,3,0.3613
+SMS0492,spam,3-shot,Spam,Spam,261,3,0.4474
+SMS0493,ham,Zero-shot,Not Spam,Not Spam,108,3,0.301
+SMS0493,ham,3-shot,Not Spam,Not Spam,204,3,0.3984
+SMS0494,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2967
+SMS0494,ham,3-shot,Not Spam,Not Spam,200,3,0.3814
+SMS0495,spam,Zero-shot,Spam,Spam,124,3,0.3395
+SMS0495,spam,3-shot,Spam,Spam,220,3,0.4598
+SMS0496,spam,Zero-shot,Spam,Spam,123,3,0.3032
+SMS0496,spam,3-shot,Spam,Spam,219,3,0.3857
+SMS0497,ham,Zero-shot,Spam,Spam,104,3,0.3017
+SMS0497,ham,3-shot,Spam,Spam,200,3,0.3803
+SMS0498,spam,Zero-shot,Spam,Spam,155,3,0.3551
+SMS0498,spam,3-shot,Spam,Spam,251,3,0.4085
+SMS0499,spam,Zero-shot,Spam,Spam,119,3,0.2986
+SMS0499,spam,3-shot,Spam,Spam,215,3,0.3887
+SMS0500,ham,Zero-shot,Spam,Spam,113,3,0.302
+SMS0500,ham,3-shot,Spam,Spam,209,3,0.3861
+SMS0501,spam,Zero-shot,Spam,Spam,156,3,0.354
+SMS0501,spam,3-shot,Spam,Spam,252,3,0.4044
+SMS0502,spam,Zero-shot,Spam,Spam,138,3,0.3628
+SMS0502,spam,3-shot,Spam,Spam,234,3,0.3905
+SMS0503,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2967
+SMS0503,ham,3-shot,Not Spam,Not Spam,200,3,0.3932
+SMS0504,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2942
+SMS0504,ham,3-shot,Not Spam,Not Spam,194,3,0.3677
+SMS0505,spam,Zero-shot,Spam,Spam,132,3,0.3539
+SMS0505,spam,3-shot,Spam,Spam,228,3,0.3849
+SMS0506,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2962
+SMS0506,ham,3-shot,Not Spam,Not Spam,194,3,0.3891
+SMS0507,spam,Zero-shot,Spam,Spam,155,3,0.3495
+SMS0507,spam,3-shot,Spam,Spam,251,3,0.4064
+SMS0508,spam,Zero-shot,Spam,Spam,153,3,0.3624
+SMS0508,spam,3-shot,Spam,Spam,249,3,0.4092
+SMS0509,ham,Zero-shot,Not Spam,Not Spam,102,3,0.311
+SMS0509,ham,3-shot,Not Spam,Not Spam,198,3,0.4602
+SMS0510,ham,Zero-shot,Not Spam,Not Spam,97,3,0.2948
+SMS0510,ham,3-shot,Not Spam,Not Spam,193,3,0.3726
+SMS0511,spam,Zero-shot,Spam,Spam,121,3,0.3182
+SMS0511,spam,3-shot,Spam,Spam,217,3,0.3935
+SMS0512,spam,Zero-shot,Spam,Spam,152,3,0.3584
+SMS0512,spam,3-shot,Spam,Spam,248,3,0.3968
+SMS0513,spam,Zero-shot,Spam,Spam,139,3,0.3441
+SMS0513,spam,3-shot,Spam,Spam,235,3,0.4077
+SMS0514,spam,Zero-shot,Spam,Spam,133,3,0.3459
+SMS0514,spam,3-shot,Spam,Spam,229,3,0.393
+SMS0515,ham,Zero-shot,Not Spam,Not Spam,126,3,0.3181
+SMS0515,ham,3-shot,Not Spam,Not Spam,222,3,0.3962
+SMS0516,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2956
+SMS0516,ham,3-shot,Not Spam,Not Spam,197,3,0.3738
+SMS0517,spam,Zero-shot,Spam,Spam,148,3,0.3556
+SMS0517,spam,3-shot,Spam,Spam,244,3,0.3894
+SMS0518,spam,Zero-shot,Spam,Spam,149,3,0.3541
+SMS0518,spam,3-shot,Spam,Spam,245,3,0.3897
+SMS0519,ham,Zero-shot,Not Spam,Not Spam,103,3,0.2965
+SMS0519,ham,3-shot,Not Spam,Not Spam,199,3,0.3794
+SMS0520,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2977
+SMS0520,ham,3-shot,Not Spam,Not Spam,196,3,0.3734
+SMS0521,spam,Zero-shot,Spam,Spam,151,3,0.3484
+SMS0521,spam,3-shot,Spam,Spam,247,3,0.4017
+SMS0522,spam,Zero-shot,Spam,Spam,159,3,0.3715
+SMS0522,spam,3-shot,Spam,Spam,255,3,0.414
+SMS0523,ham,Zero-shot,Not Spam,Not Spam,108,3,0.3018
+SMS0523,ham,3-shot,Not Spam,Not Spam,204,3,0.4401
+SMS0524,ham,Zero-shot,Not Spam,Not Spam,104,3,0.3075
+SMS0524,ham,3-shot,Not Spam,Not Spam,200,3,0.3842
+SMS0525,spam,Zero-shot,Spam,Spam,105,3,0.312
+SMS0525,spam,3-shot,Spam,Spam,201,3,0.3865
+SMS0526,spam,Zero-shot,Spam,Spam,147,3,0.3494
+SMS0526,spam,3-shot,Spam,Spam,243,3,0.3935
+SMS0527,spam,Zero-shot,Spam,Spam,113,3,0.2999
+SMS0527,spam,3-shot,Spam,Spam,209,3,0.381
+SMS0528,ham,Zero-shot,Spam,Spam,149,3,0.3603
+SMS0528,ham,3-shot,Not Spam,Not Spam,245,3,0.3932
+SMS0529,spam,Zero-shot,Spam,Spam,151,3,0.3512
+SMS0529,spam,3-shot,Spam,Spam,247,3,0.403
+SMS0530,ham,Zero-shot,Not Spam,Not Spam,105,3,0.3008
+SMS0530,ham,3-shot,Not Spam,Not Spam,201,3,0.3775
+SMS0531,spam,Zero-shot,Spam,Spam,138,3,0.3444
+SMS0531,spam,3-shot,Spam,Spam,234,3,0.3861
+SMS0532,spam,Zero-shot,Spam,Spam,147,3,0.3605
+SMS0532,spam,3-shot,Spam,Spam,243,3,0.385
+SMS0533,ham,Zero-shot,Not Spam,Not Spam,118,3,0.334
+SMS0533,ham,3-shot,Not Spam,Not Spam,214,3,0.3832
+SMS0534,ham,Zero-shot,Not Spam,Not Spam,114,3,0.2913
+SMS0534,ham,3-shot,Not Spam,Not Spam,210,3,0.3651
+SMS0535,spam,Zero-shot,Spam,Spam,141,3,0.3565
+SMS0535,spam,3-shot,Spam,Spam,237,3,0.3836
+SMS0536,spam,Zero-shot,Spam,Spam,137,3,0.3367
+SMS0536,spam,3-shot,Spam,Spam,233,3,0.3885
+SMS0537,ham,Zero-shot,Not Spam,Not Spam,114,3,0.2912
+SMS0537,ham,3-shot,Not Spam,Not Spam,210,3,0.415
+SMS0538,ham,Zero-shot,Not Spam,Not Spam,101,3,0.3011
+SMS0538,ham,3-shot,Not Spam,Not Spam,197,3,0.3124
+SMS0539,spam,Zero-shot,Spam,Spam,138,3,0.334
+SMS0539,spam,3-shot,Spam,Spam,234,3,0.4125
+SMS0540,spam,Zero-shot,Spam,Spam,160,3,0.3417
+SMS0540,spam,3-shot,Spam,Spam,256,3,0.3933
+SMS0541,ham,Zero-shot,Not Spam,Not Spam,173,3,0.3498
+SMS0541,ham,3-shot,INVALID,Label: Not Spam,269,5,0.6004
+SMS0542,spam,Zero-shot,Spam,Spam,145,3,0.3487
+SMS0542,spam,3-shot,Spam,Spam,241,3,0.381
+SMS0543,spam,Zero-shot,Spam,Spam,136,3,0.3377
+SMS0543,spam,3-shot,Spam,Spam,232,3,0.38
+SMS0544,spam,Zero-shot,Spam,Spam,144,3,0.334
+SMS0544,spam,3-shot,Spam,Spam,240,3,0.3781
+SMS0545,spam,Zero-shot,Spam,Spam,145,3,0.343
+SMS0545,spam,3-shot,Spam,Spam,241,3,0.3849
+SMS0546,spam,Zero-shot,Spam,Spam,122,3,0.2978
+SMS0546,spam,3-shot,Not Spam,Not Spam,218,3,0.3766
+SMS0547,spam,Zero-shot,Spam,Spam,132,3,0.3374
+SMS0547,spam,3-shot,Spam,Spam,228,3,0.3785
+SMS0548,spam,Zero-shot,Spam,Spam,138,3,0.3339
+SMS0548,spam,3-shot,Spam,Spam,234,3,0.3853
+SMS0549,spam,Zero-shot,Spam,Spam,129,3,0.3358
+SMS0549,spam,3-shot,Spam,Spam,225,3,0.375
+SMS0550,spam,Zero-shot,Spam,Spam,127,3,0.3019
+SMS0550,spam,3-shot,Spam,Spam,223,3,0.3795
+SMS0551,ham,Zero-shot,Not Spam,Not Spam,104,3,0.3071
+SMS0551,ham,3-shot,Not Spam,Not Spam,200,3,0.4017
+SMS0552,ham,Zero-shot,Not Spam,Not Spam,99,3,0.2875
+SMS0552,ham,3-shot,Not Spam,Not Spam,195,3,0.3681
+SMS0553,ham,Zero-shot,Not Spam,Not Spam,105,3,0.2929
+SMS0553,ham,3-shot,Not Spam,Not Spam,201,3,0.3674
+SMS0554,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2928
+SMS0554,ham,3-shot,Not Spam,Not Spam,194,3,0.363
+SMS0555,spam,Zero-shot,Spam,Spam,113,3,0.291
+SMS0555,spam,3-shot,Spam,Spam,209,3,0.3701
+SMS0556,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2975
+SMS0556,ham,3-shot,Not Spam,Not Spam,200,3,0.3665
+SMS0557,ham,Zero-shot,Not Spam,Not Spam,100,3,0.297
+SMS0557,ham,3-shot,Not Spam,Not Spam,196,3,0.3703
+SMS0558,spam,Zero-shot,Spam,Spam,133,3,0.3369
+SMS0558,spam,3-shot,Spam,Spam,229,3,0.3832
+SMS0559,spam,Zero-shot,Spam,Spam,156,3,0.3498
+SMS0559,spam,3-shot,Spam,Spam,252,3,0.3928
+SMS0560,ham,Zero-shot,Spam,Spam,110,3,0.2956
+SMS0560,ham,3-shot,Spam,Spam,206,3,0.3757
+SMS0561,ham,Zero-shot,Not Spam,Not Spam,107,3,0.2958
+SMS0561,ham,3-shot,Not Spam,Not Spam,203,3,0.3725
+SMS0562,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2937
+SMS0562,ham,3-shot,Not Spam,Not Spam,197,3,0.3659
+SMS0563,spam,Zero-shot,Spam,Spam,140,3,0.3362
+SMS0563,spam,3-shot,Spam,Spam,236,3,0.3929
+SMS0564,spam,Zero-shot,Spam,Spam,129,3,0.329
+SMS0564,spam,3-shot,Spam,Spam,225,3,0.3822
+SMS0565,spam,Zero-shot,Spam,Spam,144,3,0.3421
+SMS0565,spam,3-shot,Spam,Spam,240,3,0.3977
+SMS0566,ham,Zero-shot,Not Spam,Not Spam,106,3,0.3536
+SMS0566,ham,3-shot,Not Spam,Not Spam,202,3,0.3888
+SMS0567,spam,Zero-shot,Spam,Spam,141,3,0.3819
+SMS0567,spam,3-shot,Spam,Spam,237,3,0.4104
+SMS0568,ham,Zero-shot,Not Spam,Not Spam,108,3,0.3074
+SMS0568,ham,3-shot,Not Spam,Not Spam,204,3,0.3725
+SMS0569,spam,Zero-shot,Spam,Spam,136,3,0.3365
+SMS0569,spam,3-shot,Spam,Spam,232,3,0.3768
+SMS0570,ham,Zero-shot,Not Spam,Not Spam,114,3,0.2969
+SMS0570,ham,3-shot,Not Spam,Not Spam,210,3,0.3743
+SMS0571,spam,Zero-shot,Spam,Spam,145,3,0.3412
+SMS0571,spam,3-shot,Spam,Spam,241,3,0.3785
+SMS0572,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2902
+SMS0572,ham,3-shot,Not Spam,Not Spam,194,3,0.367
+SMS0573,ham,Zero-shot,Spam,Spam,111,3,0.2942
+SMS0573,ham,3-shot,INVALID,Label: Not Spam,207,5,0.5284
+SMS0574,spam,Zero-shot,Spam,Spam,126,3,0.2905
+SMS0574,spam,3-shot,Spam,Spam,222,3,0.3812
+SMS0575,ham,Zero-shot,Not Spam,Not Spam,109,3,0.2967
+SMS0575,ham,3-shot,Not Spam,Not Spam,205,3,0.4185
+SMS0576,ham,Zero-shot,Spam,Spam,113,3,0.2945
+SMS0576,ham,3-shot,INVALID,Label: Not Spam,209,5,0.5165
+SMS0577,spam,Zero-shot,Spam,Spam,140,3,0.341
+SMS0577,spam,3-shot,Spam,Spam,236,3,0.3873
+SMS0578,spam,Zero-shot,Spam,Spam,150,3,0.3449
+SMS0578,spam,3-shot,Spam,Spam,246,3,0.3942
+SMS0579,ham,Zero-shot,Spam,Spam,112,3,0.2903
+SMS0579,ham,3-shot,Not Spam,Not Spam,208,3,0.369
+SMS0580,spam,Zero-shot,Spam,Spam,164,3,0.3863
+SMS0580,spam,3-shot,Spam,Spam,260,3,0.4401
+SMS0581,spam,Zero-shot,Spam,Spam,137,3,0.3619
+SMS0581,spam,3-shot,Spam,Spam,233,3,0.4176
+SMS0582,ham,Zero-shot,Not Spam,Not Spam,105,3,0.2994
+SMS0582,ham,3-shot,Not Spam,Not Spam,201,3,0.398
+SMS0583,spam,Zero-shot,Spam,Spam,135,3,0.3408
+SMS0583,spam,3-shot,Spam,Spam,231,3,0.4038
+SMS0584,spam,Zero-shot,Spam,Spam,156,3,0.3588
+SMS0584,spam,3-shot,Spam,Spam,252,3,0.4042
+SMS0585,spam,Zero-shot,Spam,Spam,122,3,0.307
+SMS0585,spam,3-shot,Spam,Spam,218,3,0.3927
+SMS0586,ham,Zero-shot,Not Spam,Not Spam,116,3,0.3055
+SMS0586,ham,3-shot,Not Spam,Not Spam,212,3,0.384
+SMS0587,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2975
+SMS0587,ham,3-shot,Not Spam,Not Spam,200,3,0.3823
+SMS0588,ham,Zero-shot,Not Spam,Not Spam,108,3,0.3026
+SMS0588,ham,3-shot,Not Spam,Not Spam,204,3,0.3678
+SMS0589,spam,Zero-shot,Spam,Spam,140,3,0.3394
+SMS0589,spam,3-shot,Spam,Spam,236,3,0.3812
+SMS0590,ham,Zero-shot,Not Spam,Not Spam,99,3,0.2878
+SMS0590,ham,3-shot,Not Spam,Not Spam,195,3,0.3637
+SMS0591,spam,Zero-shot,Spam,Spam,169,3,0.3576
+SMS0591,spam,3-shot,Spam,Spam,265,3,0.4382
+SMS0592,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2887
+SMS0592,ham,3-shot,Not Spam,Not Spam,194,3,0.3811
+SMS0593,spam,Zero-shot,Spam,Spam,163,3,0.3448
+SMS0593,spam,3-shot,Spam,Spam,259,3,0.4364
+SMS0594,spam,Zero-shot,Spam,Spam,138,3,0.3515
+SMS0594,spam,3-shot,Spam,Spam,234,3,0.4063
+SMS0595,spam,Zero-shot,Spam,Spam,104,3,0.2982
+SMS0595,spam,3-shot,Spam,Spam,200,3,0.39
+SMS0596,spam,Zero-shot,Spam,Spam,109,3,0.2888
+SMS0596,spam,3-shot,Spam,Spam,205,3,0.3768
+SMS0597,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2999
+SMS0597,ham,3-shot,Not Spam,Not Spam,194,3,0.373
+SMS0598,spam,Zero-shot,Spam,Spam,147,3,0.342
+SMS0598,spam,3-shot,Spam,Spam,243,3,0.3876
+SMS0599,ham,Zero-shot,Not Spam,Not Spam,128,3,0.3002
+SMS0599,ham,3-shot,Not Spam,Not Spam,224,3,0.3765
+SMS0600,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2956
+SMS0600,ham,3-shot,Not Spam,Not Spam,196,3,0.3695
+SMS0601,ham,Zero-shot,Not Spam,Not Spam,103,3,0.2907
+SMS0601,ham,3-shot,Not Spam,Not Spam,199,3,0.3733
+SMS0602,ham,Zero-shot,Not Spam,Not Spam,125,3,0.291
+SMS0602,ham,3-shot,Not Spam,Not Spam,221,3,0.3793
+SMS0603,ham,Zero-shot,Not Spam,Not Spam,112,3,0.301
+SMS0603,ham,3-shot,Not Spam,Not Spam,208,3,0.3683
+SMS0604,spam,Zero-shot,Spam,Spam,141,3,0.3376
+SMS0604,spam,3-shot,Spam,Spam,237,3,0.3841
+SMS0605,spam,Zero-shot,Spam,Spam,160,3,0.3408
+SMS0605,spam,3-shot,Spam,Spam,256,3,0.3925
+SMS0606,spam,Zero-shot,Not Spam,Not Spam,114,3,0.2948
+SMS0606,spam,3-shot,Not Spam,Not Spam,210,3,0.371
+SMS0607,ham,Zero-shot,Spam,Spam,107,3,0.2862
+SMS0607,ham,3-shot,Not Spam,Not Spam,203,3,0.3703
+SMS0608,spam,Zero-shot,Spam,Spam,137,3,0.331
+SMS0608,spam,3-shot,Spam,Spam,233,3,0.3956
+SMS0609,spam,Zero-shot,Spam,Spam,144,3,0.3488
+SMS0609,spam,3-shot,Spam,Spam,240,3,0.403
+SMS0610,spam,Zero-shot,Spam,Spam,140,3,0.3457
+SMS0610,spam,3-shot,Spam,Spam,236,3,0.3891
+SMS0611,spam,Zero-shot,Spam,Spam,127,3,0.3056
+SMS0611,spam,3-shot,Spam,Spam,223,3,0.3963
+SMS0612,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2883
+SMS0612,ham,3-shot,Not Spam,Not Spam,197,3,0.3697
+SMS0613,ham,Zero-shot,Spam,Spam,117,3,0.2917
+SMS0613,ham,3-shot,Not Spam,Not Spam,213,3,0.3726
+SMS0614,spam,Zero-shot,Spam,Spam,125,3,0.3063
+SMS0614,spam,3-shot,Spam,Spam,221,3,0.3777
+SMS0615,spam,Zero-shot,Spam,Spam,149,3,0.3422
+SMS0615,spam,3-shot,Spam,Spam,245,3,0.3875
+SMS0616,ham,Zero-shot,Not Spam,Not Spam,96,3,0.2875
+SMS0616,ham,3-shot,Not Spam,Not Spam,192,3,0.3593
+SMS0617,ham,Zero-shot,Not Spam,Not Spam,97,3,0.2934
+SMS0617,ham,3-shot,Not Spam,Not Spam,193,3,0.3619
+SMS0618,ham,Zero-shot,Not Spam,Not Spam,97,3,0.299
+SMS0618,ham,3-shot,Not Spam,Not Spam,193,3,0.3861
+SMS0619,spam,Zero-shot,Spam,Spam,151,3,0.3549
+SMS0619,spam,3-shot,Spam,Spam,247,3,0.4009
+SMS0620,ham,Zero-shot,Spam,Spam,102,3,0.304
+SMS0620,ham,3-shot,Spam,Spam,198,3,0.3883
+SMS0621,spam,Zero-shot,Spam,Spam,155,3,0.3554
+SMS0621,spam,3-shot,Spam,Spam,251,3,0.4106
+SMS0622,ham,Zero-shot,Not Spam,Not Spam,102,3,0.3147
+SMS0622,ham,3-shot,Not Spam,Not Spam,198,3,0.387
+SMS0623,ham,Zero-shot,Not Spam,Not Spam,149,3,0.3413
+SMS0623,ham,3-shot,Not Spam,Not Spam,245,3,0.3936
+SMS0624,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2886
+SMS0624,ham,3-shot,Not Spam,Not Spam,200,3,0.3676
+SMS0625,ham,Zero-shot,Not Spam,Not Spam,128,3,0.3076
+SMS0625,ham,3-shot,Not Spam,Not Spam,224,3,0.3738
+SMS0626,spam,Zero-shot,Spam,Spam,133,3,0.3383
+SMS0626,spam,3-shot,Spam,Spam,229,3,0.3876
+SMS0627,spam,Zero-shot,Spam,Spam,165,3,0.3443
+SMS0627,spam,3-shot,Spam,Spam,261,3,0.4382
+SMS0628,spam,Zero-shot,Spam,Spam,152,3,0.3493
+SMS0628,spam,3-shot,Spam,Spam,248,3,0.3849
+SMS0629,spam,Zero-shot,Spam,Spam,153,3,0.3407
+SMS0629,spam,3-shot,Spam,Spam,249,3,0.3905
+SMS0630,spam,Zero-shot,Spam,Spam,155,3,0.3426
+SMS0630,spam,3-shot,Spam,Spam,251,3,0.4082
+SMS0631,spam,Zero-shot,Spam,Spam,160,3,0.3412
+SMS0631,spam,3-shot,Spam,Spam,256,3,0.3956
+SMS0632,ham,Zero-shot,Not Spam,Not Spam,122,3,0.3074
+SMS0632,ham,3-shot,Not Spam,Not Spam,218,3,0.3711
+SMS0633,spam,Zero-shot,Spam,Spam,113,3,0.2969
+SMS0633,spam,3-shot,Spam,Spam,209,3,0.3909
+SMS0634,ham,Zero-shot,Spam,Spam,124,3,0.2904
+SMS0634,ham,3-shot,Spam,Spam,220,3,0.3777
+SMS0635,ham,Zero-shot,Not Spam,Not Spam,108,3,0.3074
+SMS0635,ham,3-shot,Not Spam,Not Spam,204,3,0.3681
+SMS0636,spam,Zero-shot,Spam,Spam,151,3,0.3396
+SMS0636,spam,3-shot,Spam,Spam,247,3,0.4011
+SMS0637,spam,Zero-shot,Spam,Spam,124,3,0.304
+SMS0637,spam,3-shot,Spam,Spam,220,3,0.3711
+SMS0638,spam,Zero-shot,Spam,Spam,142,3,0.3514
+SMS0638,spam,3-shot,Spam,Spam,238,3,0.3931
+SMS0639,spam,Zero-shot,Spam,Spam,153,3,0.3406
+SMS0639,spam,3-shot,Spam,Spam,249,3,0.3878
+SMS0640,spam,Zero-shot,Spam,Spam,147,3,0.3486
+SMS0640,spam,3-shot,Spam,Spam,243,3,0.3883
+SMS0641,spam,Zero-shot,Spam,Spam,165,3,0.3482
+SMS0641,spam,3-shot,Spam,Spam,261,3,0.4457
+SMS0642,ham,Zero-shot,Not Spam,Not Spam,114,3,0.3158
+SMS0642,ham,3-shot,Not Spam,Not Spam,210,3,0.3724
+SMS0643,ham,Zero-shot,Spam,Spam,105,3,0.2864
+SMS0643,ham,3-shot,Spam,Spam,201,3,0.3803
+SMS0644,spam,Zero-shot,Spam,Spam,144,3,0.3454
+SMS0644,spam,3-shot,Spam,Spam,240,3,0.3857
+SMS0645,ham,Zero-shot,Not Spam,Not Spam,123,3,0.3038
+SMS0645,ham,3-shot,Not Spam,Not Spam,219,3,0.3854
+SMS0646,spam,Zero-shot,Spam,Spam,110,3,0.2902
+SMS0646,spam,3-shot,Spam,Spam,206,3,0.3799
+SMS0647,spam,Zero-shot,Spam,Spam,133,3,0.3411
+SMS0647,spam,3-shot,Spam,Spam,229,3,0.389
+SMS0648,ham,Zero-shot,Not Spam,Not Spam,97,3,0.2968
+SMS0648,ham,3-shot,Not Spam,Not Spam,193,3,0.3651
+SMS0649,spam,Zero-shot,Spam,Spam,168,3,0.3481
+SMS0649,spam,3-shot,Spam,Spam,264,3,0.4361
+SMS0650,ham,Zero-shot,Not Spam,Not Spam,111,3,0.2895
+SMS0650,ham,3-shot,Not Spam,Not Spam,207,3,0.3753
+SMS0651,spam,Zero-shot,Spam,Spam,158,3,0.3884
+SMS0651,spam,3-shot,Spam,Spam,254,3,0.3931
+SMS0652,spam,Zero-shot,Spam,Spam,136,3,0.3305
+SMS0652,spam,3-shot,Spam,Spam,232,3,0.3806
+SMS0653,ham,Zero-shot,Not Spam,Not Spam,106,3,0.293
+SMS0653,ham,3-shot,Not Spam,Not Spam,202,3,0.3798
+SMS0654,spam,Zero-shot,Spam,Spam,151,3,0.3632
+SMS0654,spam,3-shot,Spam,Spam,247,3,0.407
+SMS0655,ham,Zero-shot,Not Spam,Not Spam,126,3,0.2922
+SMS0655,ham,3-shot,Not Spam,Not Spam,222,3,0.383
+SMS0656,spam,Zero-shot,Spam,Spam,127,3,0.3001
+SMS0656,spam,3-shot,Spam,Spam,223,3,0.3701
+SMS0657,ham,Zero-shot,Not Spam,Not Spam,106,3,0.2984
+SMS0657,ham,3-shot,Not Spam,Not Spam,202,3,0.3725
+SMS0658,spam,Zero-shot,Spam,Spam,142,3,0.3363
+SMS0658,spam,3-shot,Spam,Spam,238,3,0.3812
+SMS0659,spam,Zero-shot,Spam,Spam,161,3,0.3453
+SMS0659,spam,3-shot,Spam,Spam,257,3,0.4482
+SMS0660,spam,Zero-shot,Spam,Spam,138,3,0.3325
+SMS0660,spam,3-shot,Spam,Spam,234,3,0.3852
+SMS0661,ham,Zero-shot,Not Spam,Not Spam,101,3,0.3004
+SMS0661,ham,3-shot,Not Spam,Not Spam,197,3,0.38
+SMS0662,ham,Zero-shot,Not Spam,Not Spam,97,3,0.2874
+SMS0662,ham,3-shot,Not Spam,Not Spam,193,3,0.3739
+SMS0663,ham,Zero-shot,Not Spam,Not Spam,97,3,0.2876
+SMS0663,ham,3-shot,Not Spam,Not Spam,193,3,0.3676
+SMS0664,ham,Zero-shot,Not Spam,Not Spam,128,3,0.3036
+SMS0664,ham,3-shot,Not Spam,Not Spam,224,3,0.3729
+SMS0665,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2848
+SMS0665,ham,3-shot,Not Spam,Not Spam,196,3,0.3819
+SMS0666,spam,Zero-shot,Spam,Spam,154,3,0.3541
+SMS0666,spam,3-shot,Spam,Spam,250,3,0.3916
+SMS0667,ham,Zero-shot,Spam,Spam,109,3,0.3067
+SMS0667,ham,3-shot,Spam,Spam,205,3,0.3707
+SMS0668,spam,Zero-shot,Spam,Spam,138,3,0.3494
+SMS0668,spam,3-shot,Spam,Spam,234,3,0.3945
+SMS0669,spam,Zero-shot,Spam,Spam,155,3,0.3407
+SMS0669,spam,3-shot,Spam,Spam,251,3,0.3899
+SMS0670,spam,Zero-shot,Spam,Spam,150,3,0.3412
+SMS0670,spam,3-shot,Spam,Spam,246,3,0.3885
+SMS0671,ham,Zero-shot,Spam,Spam,94,3,0.2865
+SMS0671,ham,3-shot,Spam,Spam,190,3,0.3619
+SMS0672,ham,Zero-shot,Spam,Spam,133,3,0.3304
+SMS0672,ham,3-shot,Spam,Spam,229,3,0.3768
+SMS0673,ham,Zero-shot,Not Spam,Not Spam,111,3,0.287
+SMS0673,ham,3-shot,Not Spam,Not Spam,207,3,0.3631
+SMS0674,spam,Zero-shot,Spam,Spam,135,3,0.3266
+SMS0674,spam,3-shot,Spam,Spam,231,3,0.378
+SMS0675,ham,Zero-shot,Not Spam,Not Spam,118,3,0.2899
+SMS0675,ham,3-shot,Not Spam,Not Spam,214,3,0.3739
+SMS0676,ham,Zero-shot,Not Spam,Not Spam,110,3,0.2984
+SMS0676,ham,3-shot,Not Spam,Not Spam,206,3,0.3714
+SMS0677,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2907
+SMS0677,ham,3-shot,Not Spam,Not Spam,197,3,0.3728
+SMS0678,spam,Zero-shot,Spam,Spam,135,3,0.3301
+SMS0678,spam,3-shot,Spam,Spam,231,3,0.3752
+SMS0679,ham,Zero-shot,Not Spam,Not Spam,100,3,0.3023
+SMS0679,ham,3-shot,Not Spam,Not Spam,196,3,0.3672
+SMS0680,ham,Zero-shot,Spam,Spam,102,3,0.3075
+SMS0680,ham,3-shot,Spam,Spam,198,3,0.3731
+SMS0681,spam,Zero-shot,Spam,Spam,130,3,0.3397
+SMS0681,spam,3-shot,Spam,Spam,226,3,0.3749
+SMS0682,spam,Zero-shot,Spam,Spam,151,3,0.3388
+SMS0682,spam,3-shot,Spam,Spam,247,3,0.3954
+SMS0683,ham,Zero-shot,Not Spam,Not Spam,105,3,0.2856
+SMS0683,ham,3-shot,Not Spam,Not Spam,201,3,0.365
+SMS0684,spam,Zero-shot,Spam,Spam,151,3,0.3351
+SMS0684,spam,3-shot,Spam,Spam,247,3,0.3836
+SMS0685,ham,Zero-shot,Spam,Spam,140,3,0.3293
+SMS0685,ham,3-shot,Spam,Spam,236,3,0.3777
+SMS0686,spam,Zero-shot,Spam,Spam,147,3,0.3343
+SMS0686,spam,3-shot,Spam,Spam,243,3,0.3799
+SMS0687,spam,Zero-shot,Spam,Spam,137,3,0.3294
+SMS0687,spam,3-shot,Spam,Spam,233,3,0.3788
+SMS0688,ham,Zero-shot,Not Spam,Not Spam,133,3,0.3363
+SMS0688,ham,3-shot,Not Spam,Not Spam,229,3,0.379
+SMS0689,spam,Zero-shot,Spam,Spam,135,3,0.3371
+SMS0689,spam,3-shot,Spam,Spam,231,3,0.3837
+SMS0690,ham,Zero-shot,Not Spam,Not Spam,99,3,0.294
+SMS0690,ham,3-shot,Not Spam,Not Spam,195,3,0.3745
+SMS0691,spam,Zero-shot,Spam,Spam,155,3,0.3497
+SMS0691,spam,3-shot,Spam,Spam,251,3,0.3931
+SMS0692,ham,Zero-shot,Not Spam,Not Spam,105,3,0.3005
+SMS0692,ham,3-shot,Not Spam,Not Spam,201,3,0.3585
+SMS0693,spam,Zero-shot,Spam,Spam,128,3,0.2948
+SMS0693,spam,3-shot,Spam,Spam,224,3,0.3865
+SMS0694,spam,Zero-shot,Spam,Spam,150,3,0.3659
+SMS0694,spam,3-shot,Spam,Spam,246,3,0.391
+SMS0695,ham,Zero-shot,Not Spam,Not Spam,111,3,0.2996
+SMS0695,ham,3-shot,Not Spam,Not Spam,207,3,0.3664
+SMS0696,spam,Zero-shot,Spam,Spam,147,3,0.334
+SMS0696,spam,3-shot,Spam,Spam,243,3,0.3963
+SMS0697,ham,Zero-shot,Not Spam,Not Spam,107,3,0.2894
+SMS0697,ham,3-shot,Not Spam,Not Spam,203,3,0.3704
+SMS0698,ham,Zero-shot,Not Spam,Not Spam,132,3,0.3407
+SMS0698,ham,3-shot,Not Spam,Not Spam,228,3,0.384
+SMS0699,spam,Zero-shot,Spam,Spam,140,3,0.3367
+SMS0699,spam,3-shot,Spam,Spam,236,3,0.3875
+SMS0700,spam,Zero-shot,Spam,Spam,130,3,0.3399
+SMS0700,spam,3-shot,Spam,Spam,226,3,0.3721
+SMS0701,ham,Zero-shot,Not Spam,Not Spam,117,3,0.2896
+SMS0701,ham,3-shot,Not Spam,Not Spam,213,3,0.3786
+SMS0702,spam,Zero-shot,Spam,Spam,155,3,0.3423
+SMS0702,spam,3-shot,Spam,Spam,251,3,0.3843
+SMS0703,spam,Zero-shot,Spam,Spam,123,3,0.2939
+SMS0703,spam,3-shot,Spam,Spam,219,3,0.4083
+SMS0704,ham,Zero-shot,Not Spam,Not Spam,112,3,0.302
+SMS0704,ham,3-shot,Not Spam,Not Spam,208,3,0.3732
+SMS0705,spam,Zero-shot,Spam,Spam,146,3,0.3342
+SMS0705,spam,3-shot,Spam,Spam,242,3,0.3847
+SMS0706,spam,Zero-shot,Spam,Spam,145,3,0.3356
+SMS0706,spam,3-shot,Spam,Spam,241,3,0.3851
+SMS0707,ham,Zero-shot,Not Spam,Not Spam,134,3,0.3317
+SMS0707,ham,3-shot,INVALID,Label: Not Spam,230,5,0.5261
+SMS0708,ham,Zero-shot,Not Spam,Not Spam,96,3,0.2987
+SMS0708,ham,3-shot,Not Spam,Not Spam,192,3,0.3564
+SMS0709,spam,Zero-shot,Spam,Spam,149,3,0.3363
+SMS0709,spam,3-shot,Spam,Spam,245,3,0.3883
+SMS0710,spam,Zero-shot,Spam,Spam,157,3,0.3395
+SMS0710,spam,3-shot,Spam,Spam,253,3,0.3906
+SMS0711,ham,Zero-shot,Not Spam,Not Spam,106,3,0.2846
+SMS0711,ham,3-shot,Not Spam,Not Spam,202,3,0.3673
+SMS0712,ham,Zero-shot,Not Spam,Not Spam,118,3,0.2858
+SMS0712,ham,3-shot,Not Spam,Not Spam,214,3,0.3744
+SMS0713,spam,Zero-shot,Spam,Spam,141,3,0.3378
+SMS0713,spam,3-shot,Spam,Spam,237,3,0.3858
+SMS0714,spam,Zero-shot,Spam,Spam,156,3,0.3363
+SMS0714,spam,3-shot,Spam,Spam,252,3,0.388
+SMS0715,spam,Zero-shot,Spam,Spam,143,3,0.333
+SMS0715,spam,3-shot,Spam,Spam,239,3,0.3783
+SMS0716,spam,Zero-shot,Spam,Spam,138,3,0.3344
+SMS0716,spam,3-shot,Spam,Spam,234,3,0.3796
+SMS0717,ham,Zero-shot,Not Spam,Not Spam,128,3,0.2947
+SMS0717,ham,3-shot,Not Spam,Not Spam,224,3,0.3728
+SMS0718,ham,Zero-shot,Not Spam,Not Spam,120,3,0.2882
+SMS0718,ham,3-shot,Not Spam,Not Spam,216,3,0.3672
+SMS0719,spam,Zero-shot,Spam,Spam,164,3,0.3386
+SMS0719,spam,3-shot,Spam,Spam,260,3,0.4483
+SMS0720,ham,Zero-shot,Not Spam,Not Spam,99,3,0.278
+SMS0720,ham,3-shot,Not Spam,Not Spam,195,3,0.3669
+SMS0721,spam,Zero-shot,Spam,Spam,148,3,0.3543
+SMS0721,spam,3-shot,Spam,Spam,244,3,0.3908
+SMS0722,spam,Zero-shot,Spam,Spam,132,3,0.3311
+SMS0722,spam,3-shot,Spam,Spam,228,3,0.4442
+SMS0723,ham,Zero-shot,Not Spam,Not Spam,113,3,0.2939
+SMS0723,ham,3-shot,Not Spam,Not Spam,209,3,0.3677
+SMS0724,ham,Zero-shot,Not Spam,Not Spam,112,3,0.3061
+SMS0724,ham,3-shot,Not Spam,Not Spam,208,3,0.3832
+SMS0725,ham,Zero-shot,Not Spam,Not Spam,112,3,0.3031
+SMS0725,ham,3-shot,Not Spam,Not Spam,208,3,0.3989
+SMS0726,spam,Zero-shot,Spam,Spam,152,3,0.3521
+SMS0726,spam,3-shot,Spam,Spam,248,3,0.4004
+SMS0727,spam,Zero-shot,Spam,Spam,163,3,0.3758
+SMS0727,spam,3-shot,Spam,Spam,259,3,0.4427
+SMS0728,spam,Zero-shot,Spam,Spam,136,3,0.3358
+SMS0728,spam,3-shot,Spam,Spam,232,3,0.3878
+SMS0729,spam,Zero-shot,Spam,Spam,146,3,0.3406
+SMS0729,spam,3-shot,Spam,Spam,242,3,0.3984
+SMS0730,ham,Zero-shot,Spam,Spam,101,3,0.2905
+SMS0730,ham,3-shot,Spam,Spam,197,3,0.3646
+SMS0731,ham,Zero-shot,Not Spam,Not Spam,126,3,0.2953
+SMS0731,ham,3-shot,Not Spam,Not Spam,222,3,0.3832
+SMS0732,spam,Zero-shot,Spam,Spam,129,3,0.3365
+SMS0732,spam,3-shot,Spam,Spam,225,3,0.3894
+SMS0733,spam,Zero-shot,Spam,Spam,164,3,0.3481
+SMS0733,spam,3-shot,Spam,Spam,260,3,0.4378
+SMS0734,ham,Zero-shot,Spam,Spam,135,3,0.3479
+SMS0734,ham,3-shot,Spam,Spam,231,3,0.3822
+SMS0735,ham,Zero-shot,Not Spam,Not Spam,111,3,0.2897
+SMS0735,ham,3-shot,Not Spam,Not Spam,207,3,0.372
+SMS0736,ham,Zero-shot,Not Spam,Not Spam,107,3,0.291
+SMS0736,ham,3-shot,Not Spam,Not Spam,203,3,0.4155
+SMS0737,ham,Zero-shot,Spam,Spam,131,3,0.3347
+SMS0737,ham,3-shot,INVALID,Label: Spam,227,4,0.4462
+SMS0738,spam,Zero-shot,Spam,Spam,158,3,0.3665
+SMS0738,spam,3-shot,Spam,Spam,254,3,0.4008
+SMS0739,ham,Zero-shot,Spam,Spam,129,3,0.3545
+SMS0739,ham,3-shot,Not Spam,Not Spam,225,3,0.3898
+SMS0740,ham,Zero-shot,Not Spam,Not Spam,120,3,0.2919
+SMS0740,ham,3-shot,Not Spam,Not Spam,216,3,0.3732
+SMS0741,ham,Zero-shot,Not Spam,Not Spam,112,3,0.3049
+SMS0741,ham,3-shot,Not Spam,Not Spam,208,3,0.3703
+SMS0742,spam,Zero-shot,Spam,Spam,129,3,0.3274
+SMS0742,spam,3-shot,Spam,Spam,225,3,0.3937
+SMS0743,spam,Zero-shot,Spam,Spam,140,3,0.3314
+SMS0743,spam,3-shot,Spam,Spam,236,3,0.3832
+SMS0744,spam,Zero-shot,Spam,Spam,150,3,0.3526
+SMS0744,spam,3-shot,Spam,Spam,246,3,0.3839
+SMS0745,ham,Zero-shot,Not Spam,Not Spam,99,3,0.2848
+SMS0745,ham,3-shot,Not Spam,Not Spam,195,3,0.3896
+SMS0746,spam,Zero-shot,Spam,Spam,154,3,0.3891
+SMS0746,spam,3-shot,Spam,Spam,250,3,0.4018
+SMS0747,spam,Zero-shot,Spam,Spam,146,3,0.3445
+SMS0747,spam,3-shot,Spam,Spam,242,3,0.3829
+SMS0748,spam,Zero-shot,Spam,Spam,144,3,0.3344
+SMS0748,spam,3-shot,Spam,Spam,240,3,0.3825
+SMS0749,spam,Zero-shot,Spam,Spam,145,3,0.3352
+SMS0749,spam,3-shot,Spam,Spam,241,3,0.4014
+SMS0750,ham,Zero-shot,Not Spam,Not Spam,103,3,0.2919
+SMS0750,ham,3-shot,Not Spam,Not Spam,199,3,0.3958
+SMS0751,ham,Zero-shot,Not Spam,Not Spam,99,3,0.3139
+SMS0751,ham,3-shot,Not Spam,Not Spam,195,3,0.3687
+SMS0752,spam,Zero-shot,Spam,Spam,150,3,0.3411
+SMS0752,spam,3-shot,Spam,Spam,246,3,0.4127
+SMS0753,ham,Zero-shot,Spam,Spam,110,3,0.2849
+SMS0753,ham,3-shot,Spam,Spam,206,3,0.3847
+SMS0754,ham,Zero-shot,Spam,Spam,107,3,0.3217
+SMS0754,ham,3-shot,Not Spam,Not Spam,203,3,0.3721
+SMS0755,spam,Zero-shot,Spam,Spam,132,3,0.3296
+SMS0755,spam,3-shot,Spam,Spam,228,3,0.3959
+SMS0756,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2873
+SMS0756,ham,3-shot,Not Spam,Not Spam,200,3,0.3734
+SMS0757,spam,Zero-shot,Spam,Spam,133,3,0.348
+SMS0757,spam,3-shot,Spam,Spam,229,3,0.3775
+SMS0758,ham,Zero-shot,Not Spam,Not Spam,122,3,0.2951
+SMS0758,ham,3-shot,Not Spam,Not Spam,218,3,0.388
+SMS0759,ham,Zero-shot,Not Spam,Not Spam,106,3,0.2877
+SMS0759,ham,3-shot,Not Spam,Not Spam,202,3,0.3706
+SMS0760,spam,Zero-shot,Spam,Spam,156,3,0.3641
+SMS0760,spam,3-shot,Spam,Spam,252,3,0.3966
+SMS0761,spam,Zero-shot,Spam,Spam,141,3,0.3525
+SMS0761,spam,3-shot,Spam,Spam,237,3,0.3855
+SMS0762,ham,Zero-shot,Not Spam,Not Spam,114,3,0.2938
+SMS0762,ham,3-shot,Not Spam,Not Spam,210,3,0.3718
+SMS0763,spam,Zero-shot,Spam,Spam,143,3,0.3474
+SMS0763,spam,3-shot,Spam,Spam,239,3,0.3948
+SMS0764,ham,Zero-shot,Not Spam,Not Spam,125,3,0.295
+SMS0764,ham,3-shot,Not Spam,Not Spam,221,3,0.4004
+SMS0765,ham,Zero-shot,Not Spam,Not Spam,110,3,0.3049
+SMS0765,ham,3-shot,Not Spam,Not Spam,206,3,0.3717
+SMS0766,spam,Zero-shot,Spam,Spam,145,3,0.3379
+SMS0766,spam,3-shot,Spam,Spam,241,3,0.385
+SMS0767,spam,Zero-shot,Spam,Spam,148,3,0.3612
+SMS0767,spam,3-shot,Spam,Spam,244,3,0.394
+SMS0768,ham,Zero-shot,Spam,Spam,117,3,0.2921
+SMS0768,ham,3-shot,Spam,Spam,213,3,0.39
+SMS0769,spam,Zero-shot,Spam,Spam,131,3,0.3421
+SMS0769,spam,3-shot,Spam,Spam,227,3,0.3795
+SMS0770,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2992
+SMS0770,ham,3-shot,Not Spam,Not Spam,194,3,0.3692
+SMS0771,ham,Zero-shot,Not Spam,Not Spam,97,3,0.291
+SMS0771,ham,3-shot,Not Spam,Not Spam,193,3,0.3787
+SMS0772,ham,Zero-shot,Not Spam,Not Spam,102,3,0.2929
+SMS0772,ham,3-shot,Not Spam,Not Spam,198,3,0.3692
+SMS0773,ham,Zero-shot,Not Spam,Not Spam,102,3,0.2902
+SMS0773,ham,3-shot,Not Spam,Not Spam,198,3,0.3771
+SMS0774,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2901
+SMS0774,ham,3-shot,Not Spam,Not Spam,197,3,0.364
+SMS0775,spam,Zero-shot,Spam,Spam,151,3,0.3475
+SMS0775,spam,3-shot,Spam,Spam,247,3,0.3808
+SMS0776,spam,Zero-shot,Spam,Spam,102,3,0.2884
+SMS0776,spam,3-shot,Not Spam,Not Spam,198,3,0.3705
+SMS0777,spam,Zero-shot,Not Spam,Not Spam,121,3,0.2923
+SMS0777,spam,3-shot,Not Spam,Not Spam,217,3,0.3702
+SMS0778,ham,Zero-shot,Not Spam,Not Spam,115,3,0.2964
+SMS0778,ham,3-shot,Not Spam,Not Spam,211,3,0.3709
+SMS0779,ham,Zero-shot,Not Spam,Not Spam,121,3,0.2896
+SMS0779,ham,3-shot,Not Spam,Not Spam,217,3,0.3827
+SMS0780,ham,Zero-shot,Spam,Spam,163,3,0.3444
+SMS0780,ham,3-shot,INVALID,Label: Not Spam,259,5,0.6112
+SMS0781,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2905
+SMS0781,ham,3-shot,Not Spam,Not Spam,200,3,0.3756
+SMS0782,spam,Zero-shot,Spam,Spam,117,3,0.318
+SMS0782,spam,3-shot,Spam,Spam,213,3,0.3892
+SMS0783,ham,Zero-shot,Not Spam,Not Spam,99,3,0.2908
+SMS0783,ham,3-shot,Not Spam,Not Spam,195,3,0.3639
+SMS0784,spam,Zero-shot,Spam,Spam,137,3,0.345
+SMS0784,spam,3-shot,Spam,Spam,233,3,0.3805
+SMS0785,spam,Zero-shot,Spam,Spam,136,3,0.3308
+SMS0785,spam,3-shot,Spam,Spam,232,3,0.3871
+SMS0786,ham,Zero-shot,Spam,Spam,126,3,0.2975
+SMS0786,ham,3-shot,INVALID,Label: Spam,222,4,0.4545
+SMS0787,ham,Zero-shot,Not Spam,Not Spam,97,3,0.2853
+SMS0787,ham,3-shot,Not Spam,Not Spam,193,3,0.3643
+SMS0788,spam,Zero-shot,Spam,Spam,150,3,0.3395
+SMS0788,spam,3-shot,Spam,Spam,246,3,0.3834
+SMS0789,ham,Zero-shot,Not Spam,Not Spam,112,3,0.2997
+SMS0789,ham,3-shot,Not Spam,Not Spam,208,3,0.3719
+SMS0790,spam,Zero-shot,Spam,Spam,149,3,0.3343
+SMS0790,spam,3-shot,Spam,Spam,245,3,0.3889
+SMS0791,spam,Zero-shot,Spam,Spam,107,3,0.2892
+SMS0791,spam,3-shot,Spam,Spam,203,3,0.3745
+SMS0792,spam,Zero-shot,Spam,Spam,123,3,0.2937
+SMS0792,spam,3-shot,Spam,Spam,219,3,0.3772
+SMS0793,ham,Zero-shot,Not Spam,Not Spam,122,3,0.2941
+SMS0793,ham,3-shot,Not Spam,Not Spam,218,3,0.4268
+SMS0794,spam,Zero-shot,Spam,Spam,106,3,0.2917
+SMS0794,spam,3-shot,Spam,Spam,202,3,0.3731
+SMS0795,ham,Zero-shot,Not Spam,Not Spam,108,3,0.2912
+SMS0795,ham,3-shot,Not Spam,Not Spam,204,3,0.37
+SMS0796,spam,Zero-shot,Spam,Spam,151,3,0.3421
+SMS0796,spam,3-shot,Spam,Spam,247,3,0.4057
+SMS0797,spam,Zero-shot,Spam,Spam,136,3,0.3435
+SMS0797,spam,3-shot,Spam,Spam,232,3,0.3957
+SMS0798,spam,Zero-shot,Spam,Spam,147,3,0.3527
+SMS0798,spam,3-shot,Spam,Spam,243,3,0.3861
+SMS0799,spam,Zero-shot,Spam,Spam,116,3,0.2948
+SMS0799,spam,3-shot,Spam,Spam,212,3,0.3908
+SMS0800,spam,Zero-shot,Spam,Spam,160,3,0.3509
+SMS0800,spam,3-shot,Spam,Spam,256,3,0.3912
+SMS0801,spam,Zero-shot,Spam,Spam,142,3,0.3446
+SMS0801,spam,3-shot,Spam,Spam,238,3,0.3878
+SMS0802,ham,Zero-shot,Spam,Spam,125,3,0.2962
+SMS0802,ham,3-shot,Not Spam,Not Spam,221,3,0.3737
+SMS0803,spam,Zero-shot,Spam,Spam,153,3,0.3405
+SMS0803,spam,3-shot,Spam,Spam,249,3,0.39
+SMS0804,ham,Zero-shot,Not Spam,Not Spam,96,3,0.2814
+SMS0804,ham,3-shot,Not Spam,Not Spam,192,3,0.3679
+SMS0805,spam,Zero-shot,Spam,Spam,164,3,0.3462
+SMS0805,spam,3-shot,Spam,Spam,260,3,0.4464
+SMS0806,spam,Zero-shot,Spam,Spam,149,3,0.3456
+SMS0806,spam,3-shot,Spam,Spam,245,3,0.4064
+SMS0807,ham,Zero-shot,Spam,Spam,105,3,0.295
+SMS0807,ham,3-shot,Not Spam,Not Spam,201,3,0.4169
+SMS0808,ham,Zero-shot,Not Spam,Not Spam,108,3,0.3002
+SMS0808,ham,3-shot,Not Spam,Not Spam,204,3,0.3651
+SMS0809,spam,Zero-shot,Spam,Spam,159,3,0.3409
+SMS0809,spam,3-shot,Spam,Spam,255,3,0.4066
+SMS0810,spam,Zero-shot,Spam,Spam,142,3,0.345
+SMS0810,spam,3-shot,Spam,Spam,238,3,0.3848
+SMS0811,spam,Zero-shot,Spam,Spam,125,3,0.3096
+SMS0811,spam,3-shot,Spam,Spam,221,3,0.387
+SMS0812,ham,Zero-shot,Not Spam,Not Spam,120,3,0.3079
+SMS0812,ham,3-shot,Not Spam,Not Spam,216,3,0.39
+SMS0813,ham,Zero-shot,Spam,Spam,97,3,0.3031
+SMS0813,ham,3-shot,Not Spam,Not Spam,193,3,0.3653
+SMS0814,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2995
+SMS0814,ham,3-shot,Not Spam,Not Spam,194,3,0.3636
+SMS0815,spam,Zero-shot,Spam,Spam,137,3,0.3339
+SMS0815,spam,3-shot,Spam,Spam,233,3,0.3829
+SMS0816,ham,Zero-shot,Spam,Spam,102,3,0.2896
+SMS0816,ham,3-shot,Spam,Spam,198,3,0.377
+SMS0817,ham,Zero-shot,Spam,Spam,124,3,0.3204
+SMS0817,ham,3-shot,Not Spam,Not Spam,220,3,0.3936
+SMS0818,spam,Zero-shot,Spam,Spam,164,3,0.3456
+SMS0818,spam,3-shot,Spam,Spam,260,3,0.446
+SMS0819,ham,Zero-shot,Not Spam,Not Spam,121,3,0.2919
+SMS0819,ham,3-shot,Not Spam,Not Spam,217,3,0.3741
+SMS0820,spam,Zero-shot,Spam,Spam,114,3,0.2967
+SMS0820,spam,3-shot,INVALID,Label: Spam,210,4,0.4491
+SMS0821,ham,Zero-shot,Not Spam,Not Spam,103,3,0.2907
+SMS0821,ham,3-shot,Not Spam,Not Spam,199,3,0.3694
+SMS0822,spam,Zero-shot,Spam,Spam,140,3,0.3334
+SMS0822,spam,3-shot,Spam,Spam,236,3,0.3973
+SMS0823,spam,Zero-shot,Spam,Spam,140,3,0.3393
+SMS0823,spam,3-shot,Spam,Spam,236,3,0.3913
+SMS0824,ham,Zero-shot,Spam,Spam,117,3,0.3079
+SMS0824,ham,3-shot,Spam,Spam,213,3,0.3786
+SMS0825,spam,Zero-shot,Spam,Spam,131,3,0.3354
+SMS0825,spam,3-shot,Spam,Spam,227,3,0.4009
+SMS0826,ham,Zero-shot,Not Spam,Not Spam,101,3,0.3115
+SMS0826,ham,3-shot,Not Spam,Not Spam,197,3,0.3687
+SMS0827,ham,Zero-shot,Not Spam,Not Spam,99,3,0.3117
+SMS0827,ham,3-shot,Not Spam,Not Spam,195,3,0.366
+SMS0828,ham,Zero-shot,Not Spam,Not Spam,114,3,0.2913
+SMS0828,ham,3-shot,Not Spam,Not Spam,210,3,0.3857
+SMS0829,spam,Zero-shot,Spam,Spam,104,3,0.2937
+SMS0829,spam,3-shot,Spam,Spam,200,3,0.3716
+SMS0830,spam,Zero-shot,Spam,Spam,169,3,0.3646
+SMS0830,spam,3-shot,Spam,Spam,265,3,0.4471
+SMS0831,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2915
+SMS0831,ham,3-shot,Not Spam,Not Spam,200,3,0.395
+SMS0832,ham,Zero-shot,Not Spam,Not Spam,109,3,0.2984
+SMS0832,ham,3-shot,Not Spam,Not Spam,205,3,0.3643
+SMS0833,ham,Zero-shot,Spam,Spam,112,3,0.3036
+SMS0833,ham,3-shot,Not Spam,Not Spam,208,3,0.3711
+SMS0834,ham,Zero-shot,Spam,Spam,114,3,0.2866
+SMS0834,ham,3-shot,Spam,Spam,210,3,0.386
+SMS0835,spam,Zero-shot,Spam,Spam,123,3,0.2953
+SMS0835,spam,3-shot,Spam,Spam,219,3,0.383
+SMS0836,spam,Zero-shot,Spam,Spam,120,3,0.3071
+SMS0836,spam,3-shot,Spam,Spam,216,3,0.3685
+SMS0837,spam,Zero-shot,Spam,Spam,137,3,0.3405
+SMS0837,spam,3-shot,Spam,Spam,233,3,0.3987
+SMS0838,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2868
+SMS0838,ham,3-shot,Not Spam,Not Spam,196,3,0.3757
+SMS0839,ham,Zero-shot,Not Spam,Not Spam,127,3,0.3105
+SMS0839,ham,3-shot,Not Spam,Not Spam,223,3,0.3785
+SMS0840,spam,Zero-shot,Spam,Spam,152,3,0.3484
+SMS0840,spam,3-shot,Spam,Spam,248,3,0.3933
+SMS0841,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2869
+SMS0841,ham,3-shot,Not Spam,Not Spam,196,3,0.3665
+SMS0842,spam,Zero-shot,Spam,Spam,130,3,0.344
+SMS0842,spam,3-shot,Spam,Spam,226,3,0.3876
+SMS0843,spam,Zero-shot,Not Spam,Not Spam,121,3,0.2897
+SMS0843,spam,3-shot,INVALID,Label: Spam,217,4,0.4532
+SMS0844,spam,Zero-shot,Spam,Spam,144,3,0.3376
+SMS0844,spam,3-shot,Spam,Spam,240,3,0.3812
+SMS0845,spam,Zero-shot,Spam,Spam,127,3,0.2999
+SMS0845,spam,3-shot,Spam,Spam,223,3,0.3809
+SMS0846,spam,Zero-shot,Not Spam,Not Spam,120,3,0.2906
+SMS0846,spam,3-shot,Not Spam,Not Spam,216,3,0.3747
+SMS0847,spam,Zero-shot,Spam,Spam,155,3,0.3474
+SMS0847,spam,3-shot,Spam,Spam,251,3,0.3882
+SMS0848,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2877
+SMS0848,ham,3-shot,Not Spam,Not Spam,196,3,0.3689
+SMS0849,ham,Zero-shot,Spam,Spam,101,3,0.2852
+SMS0849,ham,3-shot,Not Spam,Not Spam,197,3,0.3666
+SMS0850,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2851
+SMS0850,ham,3-shot,Not Spam,Not Spam,196,3,0.3658
+SMS0851,spam,Zero-shot,Spam,Spam,138,3,0.3358
+SMS0851,spam,3-shot,Spam,Spam,234,3,0.3818
+SMS0852,spam,Zero-shot,Spam,Spam,136,3,0.3318
+SMS0852,spam,3-shot,Spam,Spam,232,3,0.3815
+SMS0853,ham,Zero-shot,Not Spam,Not Spam,108,3,0.2941
+SMS0853,ham,3-shot,Not Spam,Not Spam,204,3,0.3703
+SMS0854,ham,Zero-shot,Not Spam,Not Spam,99,3,0.2828
+SMS0854,ham,3-shot,Not Spam,Not Spam,195,3,0.3669
+SMS0855,ham,Zero-shot,Spam,Spam,108,3,0.2891
+SMS0855,ham,3-shot,Spam,Spam,204,3,0.3689
+SMS0856,ham,Zero-shot,Not Spam,Not Spam,100,3,0.3007
+SMS0856,ham,3-shot,Not Spam,Not Spam,196,3,0.3656
+SMS0857,spam,Zero-shot,Spam,Spam,163,3,0.3495
+SMS0857,spam,3-shot,Spam,Spam,259,3,0.4372
+SMS0858,ham,Zero-shot,Not Spam,Not Spam,109,3,0.2945
+SMS0858,ham,3-shot,Not Spam,Not Spam,205,3,0.3704
+SMS0859,spam,Zero-shot,Spam,Spam,144,3,0.3422
+SMS0859,spam,3-shot,Spam,Spam,240,3,0.384
+SMS0860,ham,Zero-shot,Not Spam,Not Spam,126,3,0.2973
+SMS0860,ham,3-shot,INVALID,Label: Spam,222,4,0.4528
+SMS0861,spam,Zero-shot,Spam,Spam,147,3,0.3566
+SMS0861,spam,3-shot,Spam,Spam,243,3,0.3837
+SMS0862,ham,Zero-shot,Not Spam,Not Spam,94,3,0.2807
+SMS0862,ham,3-shot,Not Spam,Not Spam,190,3,0.366
+SMS0863,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2871
+SMS0863,ham,3-shot,Not Spam,Not Spam,196,3,0.3613
+SMS0864,ham,Zero-shot,Spam,Spam,101,3,0.2883
+SMS0864,ham,3-shot,Not Spam,Not Spam,197,3,0.3658
+SMS0865,ham,Zero-shot,Not Spam,Not Spam,121,3,0.2972
+SMS0865,ham,3-shot,Not Spam,Not Spam,217,3,0.3737
+SMS0866,spam,Zero-shot,Spam,Spam,132,3,0.3343
+SMS0866,spam,3-shot,Spam,Spam,228,3,0.3844
+SMS0867,spam,Zero-shot,Spam,Spam,157,3,0.3396
+SMS0867,spam,3-shot,Spam,Spam,253,3,0.3965
+SMS0868,ham,Zero-shot,Not Spam,Not Spam,105,3,0.2835
+SMS0868,ham,3-shot,Not Spam,Not Spam,201,3,0.3722
+SMS0869,spam,Zero-shot,Spam,Spam,120,3,0.2949
+SMS0869,spam,3-shot,Spam,Spam,216,3,0.3678
+SMS0870,ham,Zero-shot,Spam,Spam,108,3,0.2853
+SMS0870,ham,3-shot,INVALID,Label: Spam,204,4,0.4554
+SMS0871,ham,Zero-shot,Not Spam,Not Spam,109,3,0.3066
+SMS0871,ham,3-shot,Not Spam,Not Spam,205,3,0.4143
+SMS0872,spam,Zero-shot,Spam,Spam,104,3,0.3143
+SMS0872,spam,3-shot,Spam,Spam,200,3,0.38
+SMS0873,spam,Zero-shot,Spam,Spam,111,3,0.3169
+SMS0873,spam,3-shot,Spam,Spam,207,3,0.3825
+SMS0874,spam,Zero-shot,Spam,Spam,143,3,0.3482
+SMS0874,spam,3-shot,Spam,Spam,239,3,0.4059
+SMS0875,ham,Zero-shot,Not Spam,Not Spam,99,3,0.3023
+SMS0875,ham,3-shot,Not Spam,Not Spam,195,3,0.3588
+SMS0876,ham,Zero-shot,Not Spam,Not Spam,103,3,0.2989
+SMS0876,ham,3-shot,Not Spam,Not Spam,199,3,0.3628
+SMS0877,spam,Zero-shot,Spam,Spam,101,3,0.2793
+SMS0877,spam,3-shot,Spam,Spam,197,3,0.3776
+SMS0878,spam,Zero-shot,Spam,Spam,154,3,0.3415
+SMS0878,spam,3-shot,Spam,Spam,250,3,0.3912
+SMS0879,spam,Zero-shot,Spam,Spam,148,3,0.3511
+SMS0879,spam,3-shot,Spam,Spam,244,3,0.4108
+SMS0880,spam,Zero-shot,Spam,Spam,109,3,0.303
+SMS0880,spam,3-shot,Spam,Spam,205,3,0.3671
+SMS0881,spam,Zero-shot,Spam,Spam,146,3,0.3351
+SMS0881,spam,3-shot,Spam,Spam,242,3,0.3848
+SMS0882,spam,Zero-shot,Spam,Spam,138,3,0.331
+SMS0882,spam,3-shot,Spam,Spam,234,3,0.3776
+SMS0883,spam,Zero-shot,Spam,Spam,146,3,0.3396
+SMS0883,spam,3-shot,Spam,Spam,242,3,0.3811
+SMS0884,spam,Zero-shot,Spam,Spam,141,3,0.3338
+SMS0884,spam,3-shot,Spam,Spam,237,3,0.3838
+SMS0885,ham,Zero-shot,Not Spam,Not Spam,111,3,0.2941
+SMS0885,ham,3-shot,Not Spam,Not Spam,207,3,0.3772
+SMS0886,spam,Zero-shot,Spam,Spam,148,3,0.3394
+SMS0886,spam,3-shot,Spam,Spam,244,3,0.3869
+SMS0887,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2857
+SMS0887,ham,3-shot,Not Spam,Not Spam,194,3,0.3643
+SMS0888,ham,Zero-shot,Spam,Spam,100,3,0.2864
+SMS0888,ham,3-shot,Spam,Spam,196,3,0.3622
+SMS0889,spam,Zero-shot,Spam,Spam,127,3,0.2944
+SMS0889,spam,3-shot,Spam,Spam,223,3,0.3708
+SMS0890,spam,Zero-shot,Spam,Spam,159,3,0.3447
+SMS0890,spam,3-shot,Spam,Spam,255,3,0.3907
+SMS0891,ham,Zero-shot,Not Spam,Not Spam,121,3,0.2949
+SMS0891,ham,3-shot,Not Spam,Not Spam,217,3,0.3636
+SMS0892,spam,Zero-shot,Spam,Spam,149,3,0.338
+SMS0892,spam,3-shot,Spam,Spam,245,3,0.3808
+SMS0893,spam,Zero-shot,Spam,Spam,124,3,0.289
+SMS0893,spam,3-shot,Spam,Spam,220,3,0.3766
+SMS0894,spam,Zero-shot,Spam,Spam,147,3,0.3596
+SMS0894,spam,3-shot,Spam,Spam,243,3,0.3806
+SMS0895,ham,Zero-shot,Not Spam,Not Spam,99,3,0.2861
+SMS0895,ham,3-shot,Not Spam,Not Spam,195,3,0.3621
+SMS0896,ham,Zero-shot,Spam,Spam,99,3,0.287
+SMS0896,ham,3-shot,Not Spam,Not Spam,195,3,0.3662
+SMS0897,spam,Zero-shot,Spam,Spam,157,3,0.341
+SMS0897,spam,3-shot,Spam,Spam,253,3,0.3989
+SMS0898,spam,Zero-shot,Spam,Spam,123,3,0.2964
+SMS0898,spam,3-shot,Spam,Spam,219,3,0.3711
+SMS0899,ham,Zero-shot,Not Spam,Not Spam,109,3,0.2865
+SMS0899,ham,3-shot,Not Spam,Not Spam,205,3,0.3664
+SMS0900,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2926
+SMS0900,ham,3-shot,Not Spam,Not Spam,194,3,0.3749
+SMS0901,ham,Zero-shot,Spam,Spam,111,3,0.2938
+SMS0901,ham,3-shot,Spam,Spam,207,3,0.3844
+SMS0902,ham,Zero-shot,Not Spam,Not Spam,130,3,0.3361
+SMS0902,ham,3-shot,Not Spam,Not Spam,226,3,0.3711
+SMS0903,spam,Zero-shot,Spam,Spam,143,3,0.3318
+SMS0903,spam,3-shot,Spam,Spam,239,3,0.3804
+SMS0904,spam,Zero-shot,Spam,Spam,147,3,0.337
+SMS0904,spam,3-shot,Spam,Spam,243,3,0.3803
+SMS0905,ham,Zero-shot,Not Spam,Not Spam,99,3,0.2904
+SMS0905,ham,3-shot,Not Spam,Not Spam,195,3,0.3633
+SMS0906,ham,Zero-shot,Not Spam,Not Spam,123,3,0.2951
+SMS0906,ham,3-shot,Not Spam,Not Spam,219,3,0.3774
+SMS0907,spam,Zero-shot,Spam,Spam,144,3,0.3285
+SMS0907,spam,3-shot,Spam,Spam,240,3,0.3775
+SMS0908,spam,Zero-shot,Spam,Spam,157,3,0.3384
+SMS0908,spam,3-shot,Spam,Spam,253,3,0.4034
+SMS0909,spam,Zero-shot,Spam,Spam,130,3,0.3342
+SMS0909,spam,3-shot,Spam,Spam,226,3,0.3856
+SMS0910,spam,Zero-shot,Not Spam,Not Spam,121,3,0.3039
+SMS0910,spam,3-shot,Not Spam,Not Spam,217,3,0.3675
+SMS0911,ham,Zero-shot,Not Spam,Not Spam,116,3,0.289
+SMS0911,ham,3-shot,Not Spam,Not Spam,212,3,0.3876
+SMS0912,spam,Zero-shot,Spam,Spam,129,3,0.3306
+SMS0912,spam,3-shot,Spam,Spam,225,3,0.3748
+SMS0913,ham,Zero-shot,Not Spam,Not Spam,131,3,0.35
+SMS0913,ham,3-shot,Not Spam,Not Spam,227,3,0.3769
+SMS0914,spam,Zero-shot,Spam,Spam,136,3,0.3336
+SMS0914,spam,3-shot,Spam,Spam,232,3,0.3922
+SMS0915,spam,Zero-shot,Spam,Spam,116,3,0.2929
+SMS0915,spam,3-shot,Spam,Spam,212,3,0.3862
+SMS0916,ham,Zero-shot,Not Spam,Not Spam,122,3,0.3137
+SMS0916,ham,3-shot,Not Spam,Not Spam,218,3,0.3799
+SMS0917,spam,Zero-shot,Spam,Spam,109,3,0.2945
+SMS0917,spam,3-shot,Spam,Spam,205,3,0.3774
+SMS0918,spam,Zero-shot,Spam,Spam,167,3,0.3464
+SMS0918,spam,3-shot,Spam,Spam,263,3,0.4702
+SMS0919,spam,Zero-shot,Spam,Spam,153,3,0.3419
+SMS0919,spam,3-shot,Spam,Spam,249,3,0.3797
+SMS0920,spam,Zero-shot,Spam,Spam,141,3,0.3303
+SMS0920,spam,3-shot,Spam,Spam,237,3,0.381
+SMS0921,spam,Zero-shot,Spam,Spam,154,3,0.3355
+SMS0921,spam,3-shot,Spam,Spam,250,3,0.3972
+SMS0922,ham,Zero-shot,Spam,Spam,97,3,0.2829
+SMS0922,ham,3-shot,Not Spam,Not Spam,193,3,0.3581
+SMS0923,ham,Zero-shot,Not Spam,Not Spam,130,3,0.3717
+SMS0923,ham,3-shot,Not Spam,Not Spam,226,3,0.3733
+SMS0924,spam,Zero-shot,Spam,Spam,154,3,0.3446
+SMS0924,spam,3-shot,Spam,Spam,250,3,0.404
+SMS0925,ham,Zero-shot,Not Spam,Not Spam,105,3,0.2861
+SMS0925,ham,3-shot,Not Spam,Not Spam,201,3,0.3705
+SMS0926,spam,Zero-shot,Spam,Spam,137,3,0.3465
+SMS0926,spam,3-shot,Spam,Spam,233,3,0.374
+SMS0927,ham,Zero-shot,Not Spam,Not Spam,130,3,0.3274
+SMS0927,ham,3-shot,Not Spam,Not Spam,226,3,0.3822
+SMS0928,ham,Zero-shot,Not Spam,Not Spam,98,3,0.2829
+SMS0928,ham,3-shot,Not Spam,Not Spam,194,3,0.3643
+SMS0929,spam,Zero-shot,Spam,Spam,152,3,0.3574
+SMS0929,spam,3-shot,Spam,Spam,248,3,0.3878
+SMS0930,ham,Zero-shot,Spam,Spam,102,3,0.2848
+SMS0930,ham,3-shot,Not Spam,Not Spam,198,3,0.3773
+SMS0931,ham,Zero-shot,Not Spam,Not Spam,105,3,0.3002
+SMS0931,ham,3-shot,Not Spam,Not Spam,201,3,0.385
+SMS0932,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2994
+SMS0932,ham,3-shot,Not Spam,Not Spam,197,3,0.3656
+SMS0933,ham,Zero-shot,Not Spam,Not Spam,102,3,0.2874
+SMS0933,ham,3-shot,Not Spam,Not Spam,198,3,0.3809
+SMS0934,spam,Zero-shot,Spam,Spam,143,3,0.3356
+SMS0934,spam,3-shot,Spam,Spam,239,3,0.3883
+SMS0935,ham,Zero-shot,Not Spam,Not Spam,115,3,0.3066
+SMS0935,ham,3-shot,Not Spam,Not Spam,211,3,0.3728
+SMS0936,spam,Zero-shot,Spam,Spam,150,3,0.3364
+SMS0936,spam,3-shot,Spam,Spam,246,3,0.3806
+SMS0937,spam,Zero-shot,Spam,Spam,119,3,0.2991
+SMS0937,spam,3-shot,Spam,Spam,215,3,0.3837
+SMS0938,spam,Zero-shot,Spam,Spam,146,3,0.3334
+SMS0938,spam,3-shot,Spam,Spam,242,3,0.3803
+SMS0939,ham,Zero-shot,Not Spam,Not Spam,95,3,0.2896
+SMS0939,ham,3-shot,Not Spam,Not Spam,191,3,0.3551
+SMS0940,ham,Zero-shot,Not Spam,Not Spam,110,3,0.2947
+SMS0940,ham,3-shot,Not Spam,Not Spam,206,3,0.3714
+SMS0941,ham,Zero-shot,Not Spam,Not Spam,103,3,0.2989
+SMS0941,ham,3-shot,Not Spam,Not Spam,199,3,0.3687
+SMS0942,spam,Zero-shot,Spam,Spam,156,3,0.3469
+SMS0942,spam,3-shot,Spam,Spam,252,3,0.3862
+SMS0943,ham,Zero-shot,Not Spam,Not Spam,122,3,0.2899
+SMS0943,ham,3-shot,Not Spam,Not Spam,218,3,0.3759
+SMS0944,ham,Zero-shot,Spam,Spam,104,3,0.2923
+SMS0944,ham,3-shot,Not Spam,Not Spam,200,3,0.3683
+SMS0945,ham,Zero-shot,Not Spam,Not Spam,134,3,0.3395
+SMS0945,ham,3-shot,Not Spam,Not Spam,230,3,0.3817
+SMS0946,spam,Zero-shot,Spam,Spam,135,3,0.3404
+SMS0946,spam,3-shot,Spam,Spam,231,3,0.3784
+SMS0947,ham,Zero-shot,Not Spam,Not Spam,111,3,0.2892
+SMS0947,ham,3-shot,Not Spam,Not Spam,207,3,0.3698
+SMS0948,spam,Zero-shot,Spam,Spam,133,3,0.3314
+SMS0948,spam,3-shot,Spam,Spam,229,3,0.3769
+SMS0949,spam,Zero-shot,Spam,Spam,157,3,0.3422
+SMS0949,spam,3-shot,Spam,Spam,253,3,0.3915
+SMS0950,spam,Zero-shot,Spam,Spam,142,3,0.3341
+SMS0950,spam,3-shot,Spam,Spam,238,3,0.3849
+SMS0951,spam,Zero-shot,Spam,Spam,138,3,0.3335
+SMS0951,spam,3-shot,Spam,Spam,234,3,0.3834
+SMS0952,ham,Zero-shot,Not Spam,Not Spam,99,3,0.306
+SMS0952,ham,3-shot,Not Spam,Not Spam,195,3,0.3754
+SMS0953,ham,Zero-shot,Not Spam,Not Spam,138,3,0.3379
+SMS0953,ham,3-shot,Not Spam,Not Spam,234,3,0.3803
+SMS0954,ham,Zero-shot,Not Spam,Not Spam,121,3,0.2894
+SMS0954,ham,3-shot,Not Spam,Not Spam,217,3,0.372
+SMS0955,ham,Zero-shot,Not Spam,Not Spam,101,3,0.2875
+SMS0955,ham,3-shot,Not Spam,Not Spam,197,3,0.3668
+SMS0956,spam,Zero-shot,Spam,Spam,162,3,0.3451
+SMS0956,spam,3-shot,Spam,Spam,258,3,0.443
+SMS0957,spam,Zero-shot,Spam,Spam,151,3,0.3483
+SMS0957,spam,3-shot,Spam,Spam,247,3,0.3888
+SMS0958,spam,Zero-shot,Spam,Spam,136,3,0.3305
+SMS0958,spam,3-shot,Spam,Spam,232,3,0.3775
+SMS0959,spam,Zero-shot,Spam,Spam,121,3,0.2917
+SMS0959,spam,3-shot,Spam,Spam,217,3,0.3765
+SMS0960,spam,Zero-shot,Spam,Spam,122,3,0.3028
+SMS0960,spam,3-shot,Spam,Spam,218,3,0.3773
+SMS0961,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2951
+SMS0961,ham,3-shot,Not Spam,Not Spam,200,3,0.3837
+SMS0962,spam,Zero-shot,Spam,Spam,134,3,0.3378
+SMS0962,spam,3-shot,Spam,Spam,230,3,0.3792
+SMS0963,spam,Zero-shot,Spam,Spam,142,3,0.3352
+SMS0963,spam,3-shot,Spam,Spam,238,3,0.386
+SMS0964,ham,Zero-shot,Spam,Spam,144,3,0.3449
+SMS0964,ham,3-shot,Spam,Spam,240,3,0.3855
+SMS0965,ham,Zero-shot,Not Spam,Not Spam,119,3,0.2855
+SMS0965,ham,3-shot,Not Spam,Not Spam,215,3,0.3748
+SMS0966,ham,Zero-shot,Not Spam,Not Spam,129,3,0.345
+SMS0966,ham,3-shot,INVALID,Label: Not Spam,225,5,0.5303
+SMS0967,spam,Zero-shot,Spam,Spam,153,3,0.3542
+SMS0967,spam,3-shot,Spam,Spam,249,3,0.3923
+SMS0968,spam,Zero-shot,Spam,Spam,123,3,0.296
+SMS0968,spam,3-shot,Spam,Spam,219,3,0.3853
+SMS0969,spam,Zero-shot,Spam,Spam,164,3,0.3439
+SMS0969,spam,3-shot,Spam,Spam,260,3,0.4363
+SMS0970,spam,Zero-shot,Spam,Spam,165,3,0.3473
+SMS0970,spam,3-shot,Spam,Spam,261,3,0.4472
+SMS0971,ham,Zero-shot,Spam,Spam,103,3,0.2896
+SMS0971,ham,3-shot,Spam,Spam,199,3,0.3662
+SMS0972,spam,Zero-shot,Spam,Spam,138,3,0.3304
+SMS0972,spam,3-shot,Spam,Spam,234,3,0.3982
+SMS0973,ham,Zero-shot,Not Spam,Not Spam,118,3,0.2916
+SMS0973,ham,3-shot,Not Spam,Not Spam,214,3,0.3876
+SMS0974,ham,Zero-shot,Not Spam,Not Spam,117,3,0.3017
+SMS0974,ham,3-shot,Not Spam,Not Spam,213,3,0.3823
+SMS0975,spam,Zero-shot,Spam,Spam,125,3,0.2925
+SMS0975,spam,3-shot,Spam,Spam,221,3,0.385
+SMS0976,ham,Zero-shot,Not Spam,Not Spam,137,3,0.3329
+SMS0976,ham,3-shot,Not Spam,Not Spam,233,3,0.3796
+SMS0977,spam,Zero-shot,Spam,Spam,153,3,0.3543
+SMS0977,spam,3-shot,Spam,Spam,249,3,0.3837
+SMS0978,spam,Zero-shot,Spam,Spam,130,3,0.3259
+SMS0978,spam,3-shot,Spam,Spam,226,3,0.393
+SMS0979,ham,Zero-shot,Not Spam,Not Spam,104,3,0.2858
+SMS0979,ham,3-shot,Not Spam,Not Spam,200,3,0.3667
+SMS0980,ham,Zero-shot,Spam,Spam,106,3,0.334
+SMS0980,ham,3-shot,Spam,Spam,202,3,0.3795
+SMS0981,spam,Zero-shot,Spam,Spam,113,3,0.2924
+SMS0981,spam,3-shot,Spam,Spam,209,3,0.3887
+SMS0982,spam,Zero-shot,Spam,Spam,141,3,0.3395
+SMS0982,spam,3-shot,Spam,Spam,237,3,0.3874
+SMS0983,spam,Zero-shot,Spam,Spam,131,3,0.3427
+SMS0983,spam,3-shot,Spam,Spam,227,3,0.3748
+SMS0984,spam,Zero-shot,Spam,Spam,146,3,0.3393
+SMS0984,spam,3-shot,Spam,Spam,242,3,0.397
+SMS0985,spam,Zero-shot,Spam,Spam,137,3,0.3319
+SMS0985,spam,3-shot,Spam,Spam,233,3,0.3885
+SMS0986,spam,Zero-shot,Spam,Spam,141,3,0.3364
+SMS0986,spam,3-shot,Spam,Spam,237,3,0.3954
+SMS0987,ham,Zero-shot,Not Spam,Not Spam,99,3,0.3043
+SMS0987,ham,3-shot,Not Spam,Not Spam,195,3,0.383
+SMS0988,spam,Zero-shot,Spam,Spam,144,3,0.3515
+SMS0988,spam,3-shot,Spam,Spam,240,3,0.4074
+SMS0989,ham,Zero-shot,Spam,Spam,149,3,0.3635
+SMS0989,ham,3-shot,Not Spam,Not Spam,245,3,0.413
+SMS0990,spam,Zero-shot,Spam,Spam,151,3,0.3548
+SMS0990,spam,3-shot,Spam,Spam,247,3,0.3874
+SMS0991,ham,Zero-shot,Spam,Spam,101,3,0.2883
+SMS0991,ham,3-shot,Not Spam,Not Spam,197,3,0.3864
+SMS0992,spam,Zero-shot,Spam,Spam,150,3,0.3412
+SMS0992,spam,3-shot,Spam,Spam,246,3,0.3937
+SMS0993,spam,Zero-shot,Spam,Spam,127,3,0.3178
+SMS0993,spam,3-shot,Spam,Spam,223,3,0.3799
+SMS0994,ham,Zero-shot,Not Spam,Not Spam,122,3,0.3457
+SMS0994,ham,3-shot,Not Spam,Not Spam,218,3,0.3756
+SMS0995,ham,Zero-shot,Spam,Spam,109,3,0.2927
+SMS0995,ham,3-shot,Spam,Spam,205,3,0.3682
+SMS0996,ham,Zero-shot,Not Spam,Not Spam,133,3,0.3345
+SMS0996,ham,3-shot,Not Spam,Not Spam,229,3,0.3749
+SMS0997,ham,Zero-shot,Not Spam,Not Spam,136,3,0.3357
+SMS0997,ham,3-shot,Not Spam,Not Spam,232,3,0.3767
+SMS0998,ham,Zero-shot,Not Spam,Not Spam,100,3,0.2853
+SMS0998,ham,3-shot,Not Spam,Not Spam,196,3,0.3633
+SMS0999,spam,Zero-shot,Spam,Spam,157,3,0.343
+SMS0999,spam,3-shot,Spam,Spam,253,3,0.3962
+SMS1000,spam,Zero-shot,Spam,Spam,132,3,0.3377
+SMS1000,spam,3-shot,Spam,Spam,228,3,0.3819

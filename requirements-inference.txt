@@ -1,0 +1,7 @@
+# Packages used in the original Google Colab environment (observed Oct 2026).
+# Versions may need adjustment for a newer Colab/PyTorch runtime.
+torch==2.11.0
+transformers==4.57.6
+accelerate==1.15.0
+bitsandbytes==0.50.2
+huggingface-hub==0.36.2

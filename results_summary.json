@@ -1,0 +1,45 @@
+{
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "posthoc_output_normalization": "strip one optional leading 'Label:' prefix",
+  "metrics": {
+    "Zero-shot": {
+      "n": 1000,
+      "TP": 491,
+      "FP": 111,
+      "TN": 389,
+      "FN": 9,
+      "accuracy": 0.88,
+      "precision_spam": 0.8156146179401993,
+      "recall_spam": 0.982,
+      "f1_spam": 0.8911070780399274,
+      "format_noncompliant": 0,
+      "input_tokens_total": 125434,
+      "input_tokens_mean": 125.434,
+      "seconds_total": 317.8488,
+      "seconds_mean": 0.3178488
+    },
+    "3-shot": {
+      "n": 1000,
+      "TP": 490,
+      "FP": 58,
+      "TN": 442,
+      "FN": 10,
+      "accuracy": 0.932,
+      "precision_spam": 0.8941605839416058,
+      "recall_spam": 0.98,
+      "f1_spam": 0.9351145038167938,
+      "format_noncompliant": 18,
+      "input_tokens_total": 221434,
+      "input_tokens_mean": 221.434,
+      "seconds_total": 382.2906,
+      "seconds_mean": 0.3822906
+    }
+  },
+  "paired": {
+    "both_correct": 875,
+    "zero_wrong_three_correct": 57,
+    "zero_correct_three_wrong": 5,
+    "both_wrong": 63,
+    "mcnemar_exact_two_sided_p": 3.0655256978706635e-12
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source_archive": "sms+spam+collection.zip",
+  "source_member": "SMSSpamCollection",
+  "raw_total": 5572,
+  "raw_counts": {
+    "spam": 747,
+    "ham": 4825
+  },
+  "exact_text_duplicate_records_removed": 403,
+  "deduplicated_total": 5169,
+  "deduplicated_counts": {
+    "ham": 4516,
+    "spam": 653
+  },
+  "random_seed_base": 20261016,
+  "sampling_protocol": "Deduplicate exact text preserving first occurrence; select three disjoint demonstration examples first (2 spam, 1 ham), then select 500 spam and 500 ham without replacement using fixed random seeds; shuffle test set.",
+  "test_counts": {
+    "spam": 500,
+    "ham": 500
+  },
+  "demonstration_counts": {
+    "spam": 2,
+    "ham": 1
+  },
+  "overlap_demo_test": 0,
+  "notes": [
+    "Balanced test distribution is artificial, not natural prevalence.",
+    "3-shot demonstrations are fixed and excluded from the test set.",
+    "Do not use labels as LLM inputs; keep for evaluation only.",
+    "Source_row is one-based row number within source file.",
+    "No text preprocessing beyond exact-text deduplication."
+  ]
+}
