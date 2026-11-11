@@ -21,5 +21,3 @@
 - `input_tokens`: prompt tokens measured by tokenizer
 - `output_tokens`: generated tokens
 - `time_seconds`: elapsed wall-clock time around generation (includes GPU sync)
-
-No confidence/probability scores were recorded. Token counts and per-call times are **measured artifacts**, not guarantees of API pricing or production latency.

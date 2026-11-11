@@ -1,0 +1,11 @@
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.cache/
+.cache-huggingface/
+new_inference_results.csv
+*.log
+.DS_Store

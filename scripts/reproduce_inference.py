@@ -1,9 +1,3 @@
-"""Optional Qwen inference reproduction on Colab GPU.
-
-Reconstructed from the original experiment's shared code, not the original
-Colab notebook export. Requires torch, transformers, accelerate, bitsandbytes.
-Do not run this to compute the summary: use analyze_results.py instead.
-"""
 import argparse
 import csv
 import time

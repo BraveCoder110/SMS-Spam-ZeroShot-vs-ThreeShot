@@ -1,7 +1,3 @@
-"""Recalculate published SMS spam experiment results from saved CSVs.
-
-Requires only Python standard library. Does not call a language model.
-"""
 import csv
 import json
 import math
