@@ -16,3 +16,6 @@ SMS_Spam_Prompting/
 │   └── reproduce_inference.py       # Optional GPU inference implementation
 └── results_summary.json             # Calculated from the saved results CSV
 ```
+
+notes：
+This code package is a simplified version, designed for use in environments without a GPU. If you require the original version, please email the author.
